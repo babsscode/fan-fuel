@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Plus, User, Home, TrendingUp, Calendar, Settings, Target, Clock, CheckCircle } from 'lucide-react';
 
-const HomePage: React.FC = () => {
+const DashboardPage: React.FC = () => {
   const [workouts, setWorkouts] = useState([
     {
       id: 1,
@@ -237,4 +237,4 @@ const HomePage: React.FC = () => {
   );
 };
 
-export default HomePage;
+export default DashboardPage;

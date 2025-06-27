@@ -7,9 +7,8 @@ const Navbar = () => {
     const [activeTab, setActiveTab] = useState('home');
     
     const menuItems = [
-        { id: 'home', label: 'Home', icon: Home },
+        { id: 'dashboard', label: 'Dashboard', icon: Home },
         { id: 'schedule', label: 'Schedule', icon: Calendar },
-        { id: 'account', label: 'Account', icon: User },
         { id: 'settings', label: 'Settings', icon: Settings }
     ];
 return (

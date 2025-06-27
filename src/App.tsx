@@ -1,13 +1,13 @@
 import './index.css'
 import Navbar from './pages/navbar'
-import MainRoutes from './routes'
+import { AuthProvider } from './AuthContext';
+import MainRoutes from './MainRoutes'
 
 function App() {
   return (
-    <div>
-      <Navbar/>
-      <MainRoutes/>
-    </div>
+     <AuthProvider>
+        <MainRoutes />
+    </AuthProvider>
    
   )
 }
