@@ -1,7 +1,6 @@
 import React from 'react'
-import { Routes, Route } from 'react-router-dom'
+import { Routes, Route, Navigate } from 'react-router-dom'
 import LandingPage from './pages/landingPage'
-import AccountPage from './pages/settingsPage'
 import SchedulePage from './pages/schedulePage'
 import LoginPage from './pages/loginPage'
 import { AuthProvider } from './AuthContext';
@@ -9,6 +8,7 @@ import { ProtectedRoute } from './ProtectedRoute';
 import Navbar from './pages/navbar'
 import DashboardPage from './pages/dashboardPage'
 import SettingsPage from './pages/settingsPage'
+import PreferencesPage from './pages/preferencesPage'
 
 const MainRoutes=()=> {
  return (
@@ -55,6 +55,8 @@ const MainRoutes=()=> {
                 </ProtectedRoute>
               } 
             />
+
+            <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
    </div>
  )

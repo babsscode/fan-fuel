@@ -1,24 +1,72 @@
-import React, { useState } from 'react';
-import { User, LogOut, Save } from 'lucide-react';
+import React, { useState, useEffect } from 'react';
+import { User, LogOut, Save, ChevronDown } from 'lucide-react';
 import { useAuth } from '../../AuthContext';
 import { useNavigate } from 'react-router-dom';
+import { doc, getFirestore, getDoc, setDoc } from 'firebase/firestore';
+
+const SPORTS_DATA: Record<string, string[]> = {
+  'Premier League': [
+    'Arsenal', 'Chelsea', 'Liverpool', 'Manchester City', 'Manchester United',
+    'Tottenham', 'Newcastle', 'Brighton', 'Aston Villa', 'West Ham',
+    'Crystal Palace', 'Fulham', 'Wolves', 'Everton', 'Brentford',
+    'Nottingham Forest', 'Sheffield United', 'Burnley', 'Luton Town', 'Bournemouth'
+  ]
+};
 
 const SettingsPage: React.FC = () => {
   const { user, logout } = useAuth();
   const navigate = useNavigate();
-  
-  const [preferredSport, setPreferredSport] = useState('Soccer');
-  const [units, setUnits] = useState('Imperial');
+
+  const [selectedLeague, setSelectedLeague] = useState('');
+  const [selectedTeam, setSelectedTeam] = useState('');
   const [isLoading, setIsLoading] = useState(false);
+  const [error, setError] = useState('');
+
+  const db = getFirestore();
+
+  useEffect(() => {
+    const fetchPreferences = async () => {
+      if (!user) return;
+      try {
+        const docRef = doc(db, 'userPreferences', user.uid);
+        const docSnap = await getDoc(docRef);
+        if (docSnap.exists()) {
+          const data = docSnap.data();
+          setSelectedLeague(data.favoriteLeague || '');
+          setSelectedTeam(data.favoriteTeam || '');
+        }
+      } catch (err) {
+        console.error('Error fetching preferences:', err);
+        setError('Could not load preferences');
+      }
+    };
+
+    fetchPreferences();
+  }, [user]);
 
   const handleSave = async () => {
+    if (!user) return;
+    if (!selectedLeague || !selectedTeam) {
+      setError('Please select both a league and team.');
+      return;
+    }
+
     setIsLoading(true);
-    // Here you would typically save to Firebase/your backend
-    // For now, just simulate a save
-    setTimeout(() => {
-      setIsLoading(false);
-      alert('Settings saved successfully!');
-    }, 1000);
+    setError('');
+
+    try {
+      await setDoc(doc(db, 'userPreferences', user.uid), {
+        favoriteLeague: selectedLeague,
+        favoriteTeam: selectedTeam,
+        updatedAt: new Date()
+      });
+      alert('Preferences saved successfully!');
+    } catch (err) {
+      console.error('Error saving preferences:', err);
+      setError('Failed to save preferences');
+    }
+
+    setIsLoading(false);
   };
 
   const handleSignOut = async () => {
@@ -30,7 +78,6 @@ const SettingsPage: React.FC = () => {
     }
   };
 
-  // If not authenticated, redirect to login
   if (!user) {
     navigate('/login');
     return null;
@@ -59,7 +106,7 @@ const SettingsPage: React.FC = () => {
 
       <div className="max-w-4xl mx-auto px-4 py-8">
         <div className="max-w-2xl mx-auto">
-          {/* Profile Section */}
+          {/* Profile Box */}
           <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 border border-white/20 mb-6">
             <div className="flex items-center justify-between mb-6">
               <h2 className="text-xl font-bold text-white flex items-center">
@@ -67,8 +114,6 @@ const SettingsPage: React.FC = () => {
                 Profile Information
               </h2>
             </div>
-
-            {/* Profile Picture */}
             <div className="flex items-center space-x-4 mb-6">
               <div className="w-16 h-16 bg-gradient-to-r from-cyan-400 to-purple-400 rounded-full flex items-center justify-center text-xl font-bold text-white">
                 {user.displayName ? user.displayName.charAt(0).toUpperCase() : user.email?.charAt(0).toUpperCase()}
@@ -81,7 +126,6 @@ const SettingsPage: React.FC = () => {
               </div>
             </div>
 
-            {/* User Info Display */}
             <div className="space-y-4">
               <div>
                 <label className="block text-sm font-medium text-gray-300 mb-2">Email</label>
@@ -99,7 +143,7 @@ const SettingsPage: React.FC = () => {
             </div>
           </div>
 
-          {/* Settings Section */}
+          {/* Preferences Box */}
           <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 border border-white/20">
             <div className="flex items-center justify-between mb-6">
               <h2 className="text-xl font-bold text-white">Preferences</h2>
@@ -113,37 +157,45 @@ const SettingsPage: React.FC = () => {
               </button>
             </div>
 
+            {error && <p className="text-red-400 mb-4">{error}</p>}
+
             <div className="space-y-4">
               <div>
-                <label className="block text-sm font-medium text-gray-300 mb-2">Preferred Sport</label>
+                <label className="block text-sm font-medium text-gray-300 mb-2">Favorite League</label>
                 <select
-                  value={preferredSport}
-                  onChange={(e) => setPreferredSport(e.target.value)}
-                  className="w-full px-4 py-3 bg-white/10 border border-white/20 rounded-lg text-white focus:outline-none focus:ring-2 focus:ring-cyan-400"
+                  value={selectedLeague}
+                  onChange={(e) => {
+                    setSelectedLeague(e.target.value);
+                    setSelectedTeam('');
+                  }}
+                  className="w-full px-4 py-3 bg-white/10 border border-white/20 rounded-lg text-white"
                 >
-                  <option value="Soccer">Soccer</option>
-                  <option value="Basketball">Basketball</option>
-                  <option value="Tennis">Tennis</option>
-                  <option value="Running">Running</option>
-                  <option value="Swimming">Swimming</option>
-                  <option value="Cycling">Cycling</option>
-                  <option value="Weightlifting">Weightlifting</option>
-                  <option value="Yoga">Yoga</option>
-                  <option value="Other">Other</option>
+                  <option value="">Select a league</option>
+                  {Object.keys(SPORTS_DATA).map((league) => (
+                    <option key={league} value={league}>
+                      {league}
+                    </option>
+                  ))}
                 </select>
               </div>
 
-              <div>
-                <label className="block text-sm font-medium text-gray-300 mb-2">Units of Measurement</label>
-                <select
-                  value={units}
-                  onChange={(e) => setUnits(e.target.value)}
-                  className="w-full px-4 py-3 bg-white/10 border border-white/20 rounded-lg text-white focus:outline-none focus:ring-2 focus:ring-cyan-400"
-                >
-                  <option value="Imperial">Imperial (lbs, ft, in)</option>
-                  <option value="Metric">Metric (kg, cm, m)</option>
-                </select>
-              </div>
+              {selectedLeague && (
+                <div>
+                  <label className="block text-sm font-medium text-gray-300 mb-2">Favorite Team</label>
+                  <select
+                    value={selectedTeam}
+                    onChange={(e) => setSelectedTeam(e.target.value)}
+                    className="w-full px-4 py-3 bg-white/10 border border-white/20 rounded-lg text-white"
+                  >
+                    <option value="">Select a team</option>
+                    {SPORTS_DATA[selectedLeague].map((team) => (
+                      <option key={team} value={team}>
+                        {team}
+                      </option>
+                    ))}
+                  </select>
+                </div>
+              )}
             </div>
           </div>
         </div>

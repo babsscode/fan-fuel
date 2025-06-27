@@ -1,0 +1,2282 @@
+[
+  {
+    "utcDate": "2025-08-15T19:00:00Z",
+    "homeTeam": "Liverpool FC",
+    "awayTeam": "AFC Bournemouth",
+    "matchday": 1
+  },
+  {
+    "utcDate": "2025-08-16T11:30:00Z",
+    "homeTeam": "Aston Villa FC",
+    "awayTeam": "Newcastle United FC",
+    "matchday": 1
+  },
+  {
+    "utcDate": "2025-08-16T14:00:00Z",
+    "homeTeam": "Brighton & Hove Albion FC",
+    "awayTeam": "Fulham FC",
+    "matchday": 1
+  },
+  {
+    "utcDate": "2025-08-16T14:00:00Z",
+    "homeTeam": "Nottingham Forest FC",
+    "awayTeam": "Brentford FC",
+    "matchday": 1
+  },
+  {
+    "utcDate": "2025-08-16T14:00:00Z",
+    "homeTeam": "Sunderland AFC",
+    "awayTeam": "West Ham United FC",
+    "matchday": 1
+  },
+  {
+    "utcDate": "2025-08-16T14:00:00Z",
+    "homeTeam": "Tottenham Hotspur FC",
+    "awayTeam": "Burnley FC",
+    "matchday": 1
+  },
+  {
+    "utcDate": "2025-08-16T16:30:00Z",
+    "homeTeam": "Wolverhampton Wanderers FC",
+    "awayTeam": "Manchester City FC",
+    "matchday": 1
+  },
+  {
+    "utcDate": "2025-08-17T13:00:00Z",
+    "homeTeam": "Chelsea FC",
+    "awayTeam": "Crystal Palace FC",
+    "matchday": 1
+  },
+  {
+    "utcDate": "2025-08-17T15:30:00Z",
+    "homeTeam": "Manchester United FC",
+    "awayTeam": "Arsenal FC",
+    "matchday": 1
+  },
+  {
+    "utcDate": "2025-08-18T19:00:00Z",
+    "homeTeam": "Leeds United FC",
+    "awayTeam": "Everton FC",
+    "matchday": 1
+  },
+  {
+    "utcDate": "2025-08-23T00:00:00Z",
+    "homeTeam": "AFC Bournemouth",
+    "awayTeam": "Wolverhampton Wanderers FC",
+    "matchday": 2
+  },
+  {
+    "utcDate": "2025-08-23T00:00:00Z",
+    "homeTeam": "Crystal Palace FC",
+    "awayTeam": "Nottingham Forest FC",
+    "matchday": 2
+  },
+  {
+    "utcDate": "2025-08-23T00:00:00Z",
+    "homeTeam": "Arsenal FC",
+    "awayTeam": "Leeds United FC",
+    "matchday": 2
+  },
+  {
+    "utcDate": "2025-08-23T00:00:00Z",
+    "homeTeam": "Brentford FC",
+    "awayTeam": "Aston Villa FC",
+    "matchday": 2
+  },
+  {
+    "utcDate": "2025-08-23T00:00:00Z",
+    "homeTeam": "Burnley FC",
+    "awayTeam": "Sunderland AFC",
+    "matchday": 2
+  },
+  {
+    "utcDate": "2025-08-23T00:00:00Z",
+    "homeTeam": "Everton FC",
+    "awayTeam": "Brighton & Hove Albion FC",
+    "matchday": 2
+  },
+  {
+    "utcDate": "2025-08-23T00:00:00Z",
+    "homeTeam": "Fulham FC",
+    "awayTeam": "Manchester United FC",
+    "matchday": 2
+  },
+  {
+    "utcDate": "2025-08-23T00:00:00Z",
+    "homeTeam": "Manchester City FC",
+    "awayTeam": "Tottenham Hotspur FC",
+    "matchday": 2
+  },
+  {
+    "utcDate": "2025-08-23T00:00:00Z",
+    "homeTeam": "Newcastle United FC",
+    "awayTeam": "Liverpool FC",
+    "matchday": 2
+  },
+  {
+    "utcDate": "2025-08-23T00:00:00Z",
+    "homeTeam": "West Ham United FC",
+    "awayTeam": "Chelsea FC",
+    "matchday": 2
+  },
+  {
+    "utcDate": "2025-08-30T00:00:00Z",
+    "homeTeam": "Sunderland AFC",
+    "awayTeam": "Brentford FC",
+    "matchday": 3
+  },
+  {
+    "utcDate": "2025-08-30T00:00:00Z",
+    "homeTeam": "Aston Villa FC",
+    "awayTeam": "Crystal Palace FC",
+    "matchday": 3
+  },
+  {
+    "utcDate": "2025-08-30T00:00:00Z",
+    "homeTeam": "Brighton & Hove Albion FC",
+    "awayTeam": "Manchester City FC",
+    "matchday": 3
+  },
+  {
+    "utcDate": "2025-08-30T00:00:00Z",
+    "homeTeam": "Chelsea FC",
+    "awayTeam": "Fulham FC",
+    "matchday": 3
+  },
+  {
+    "utcDate": "2025-08-30T00:00:00Z",
+    "homeTeam": "Liverpool FC",
+    "awayTeam": "Arsenal FC",
+    "matchday": 3
+  },
+  {
+    "utcDate": "2025-08-30T00:00:00Z",
+    "homeTeam": "Leeds United FC",
+    "awayTeam": "Newcastle United FC",
+    "matchday": 3
+  },
+  {
+    "utcDate": "2025-08-30T00:00:00Z",
+    "homeTeam": "Manchester United FC",
+    "awayTeam": "Burnley FC",
+    "matchday": 3
+  },
+  {
+    "utcDate": "2025-08-30T00:00:00Z",
+    "homeTeam": "Nottingham Forest FC",
+    "awayTeam": "West Ham United FC",
+    "matchday": 3
+  },
+  {
+    "utcDate": "2025-08-30T00:00:00Z",
+    "homeTeam": "Tottenham Hotspur FC",
+    "awayTeam": "AFC Bournemouth",
+    "matchday": 3
+  },
+  {
+    "utcDate": "2025-08-30T00:00:00Z",
+    "homeTeam": "Wolverhampton Wanderers FC",
+    "awayTeam": "Everton FC",
+    "matchday": 3
+  },
+  {
+    "utcDate": "2025-09-13T00:00:00Z",
+    "homeTeam": "AFC Bournemouth",
+    "awayTeam": "Brighton & Hove Albion FC",
+    "matchday": 4
+  },
+  {
+    "utcDate": "2025-09-13T00:00:00Z",
+    "homeTeam": "Crystal Palace FC",
+    "awayTeam": "Sunderland AFC",
+    "matchday": 4
+  },
+  {
+    "utcDate": "2025-09-13T00:00:00Z",
+    "homeTeam": "Arsenal FC",
+    "awayTeam": "Nottingham Forest FC",
+    "matchday": 4
+  },
+  {
+    "utcDate": "2025-09-13T00:00:00Z",
+    "homeTeam": "Brentford FC",
+    "awayTeam": "Chelsea FC",
+    "matchday": 4
+  },
+  {
+    "utcDate": "2025-09-13T00:00:00Z",
+    "homeTeam": "Burnley FC",
+    "awayTeam": "Liverpool FC",
+    "matchday": 4
+  },
+  {
+    "utcDate": "2025-09-13T00:00:00Z",
+    "homeTeam": "Everton FC",
+    "awayTeam": "Aston Villa FC",
+    "matchday": 4
+  },
+  {
+    "utcDate": "2025-09-13T00:00:00Z",
+    "homeTeam": "Fulham FC",
+    "awayTeam": "Leeds United FC",
+    "matchday": 4
+  },
+  {
+    "utcDate": "2025-09-13T00:00:00Z",
+    "homeTeam": "Manchester City FC",
+    "awayTeam": "Manchester United FC",
+    "matchday": 4
+  },
+  {
+    "utcDate": "2025-09-13T00:00:00Z",
+    "homeTeam": "Newcastle United FC",
+    "awayTeam": "Wolverhampton Wanderers FC",
+    "matchday": 4
+  },
+  {
+    "utcDate": "2025-09-13T00:00:00Z",
+    "homeTeam": "West Ham United FC",
+    "awayTeam": "Tottenham Hotspur FC",
+    "matchday": 4
+  },
+  {
+    "utcDate": "2025-09-20T00:00:00Z",
+    "homeTeam": "AFC Bournemouth",
+    "awayTeam": "Newcastle United FC",
+    "matchday": 5
+  },
+  {
+    "utcDate": "2025-09-20T00:00:00Z",
+    "homeTeam": "Sunderland AFC",
+    "awayTeam": "Aston Villa FC",
+    "matchday": 5
+  },
+  {
+    "utcDate": "2025-09-20T00:00:00Z",
+    "homeTeam": "Brighton & Hove Albion FC",
+    "awayTeam": "Tottenham Hotspur FC",
+    "matchday": 5
+  },
+  {
+    "utcDate": "2025-09-20T00:00:00Z",
+    "homeTeam": "Arsenal FC",
+    "awayTeam": "Manchester City FC",
+    "matchday": 5
+  },
+  {
+    "utcDate": "2025-09-20T00:00:00Z",
+    "homeTeam": "Burnley FC",
+    "awayTeam": "Nottingham Forest FC",
+    "matchday": 5
+  },
+  {
+    "utcDate": "2025-09-20T00:00:00Z",
+    "homeTeam": "Fulham FC",
+    "awayTeam": "Brentford FC",
+    "matchday": 5
+  },
+  {
+    "utcDate": "2025-09-20T00:00:00Z",
+    "homeTeam": "Liverpool FC",
+    "awayTeam": "Everton FC",
+    "matchday": 5
+  },
+  {
+    "utcDate": "2025-09-20T00:00:00Z",
+    "homeTeam": "Manchester United FC",
+    "awayTeam": "Chelsea FC",
+    "matchday": 5
+  },
+  {
+    "utcDate": "2025-09-20T00:00:00Z",
+    "homeTeam": "West Ham United FC",
+    "awayTeam": "Crystal Palace FC",
+    "matchday": 5
+  },
+  {
+    "utcDate": "2025-09-20T00:00:00Z",
+    "homeTeam": "Wolverhampton Wanderers FC",
+    "awayTeam": "Leeds United FC",
+    "matchday": 5
+  },
+  {
+    "utcDate": "2025-09-27T00:00:00Z",
+    "homeTeam": "Aston Villa FC",
+    "awayTeam": "Fulham FC",
+    "matchday": 6
+  },
+  {
+    "utcDate": "2025-09-27T00:00:00Z",
+    "homeTeam": "Crystal Palace FC",
+    "awayTeam": "Liverpool FC",
+    "matchday": 6
+  },
+  {
+    "utcDate": "2025-09-27T00:00:00Z",
+    "homeTeam": "Brentford FC",
+    "awayTeam": "Manchester United FC",
+    "matchday": 6
+  },
+  {
+    "utcDate": "2025-09-27T00:00:00Z",
+    "homeTeam": "Chelsea FC",
+    "awayTeam": "Brighton & Hove Albion FC",
+    "matchday": 6
+  },
+  {
+    "utcDate": "2025-09-27T00:00:00Z",
+    "homeTeam": "Everton FC",
+    "awayTeam": "West Ham United FC",
+    "matchday": 6
+  },
+  {
+    "utcDate": "2025-09-27T00:00:00Z",
+    "homeTeam": "Leeds United FC",
+    "awayTeam": "AFC Bournemouth",
+    "matchday": 6
+  },
+  {
+    "utcDate": "2025-09-27T00:00:00Z",
+    "homeTeam": "Manchester City FC",
+    "awayTeam": "Burnley FC",
+    "matchday": 6
+  },
+  {
+    "utcDate": "2025-09-27T00:00:00Z",
+    "homeTeam": "Newcastle United FC",
+    "awayTeam": "Arsenal FC",
+    "matchday": 6
+  },
+  {
+    "utcDate": "2025-09-27T00:00:00Z",
+    "homeTeam": "Nottingham Forest FC",
+    "awayTeam": "Sunderland AFC",
+    "matchday": 6
+  },
+  {
+    "utcDate": "2025-09-27T00:00:00Z",
+    "homeTeam": "Tottenham Hotspur FC",
+    "awayTeam": "Wolverhampton Wanderers FC",
+    "matchday": 6
+  },
+  {
+    "utcDate": "2025-10-04T00:00:00Z",
+    "homeTeam": "AFC Bournemouth",
+    "awayTeam": "Fulham FC",
+    "matchday": 7
+  },
+  {
+    "utcDate": "2025-10-04T00:00:00Z",
+    "homeTeam": "Aston Villa FC",
+    "awayTeam": "Burnley FC",
+    "matchday": 7
+  },
+  {
+    "utcDate": "2025-10-04T00:00:00Z",
+    "homeTeam": "Arsenal FC",
+    "awayTeam": "West Ham United FC",
+    "matchday": 7
+  },
+  {
+    "utcDate": "2025-10-04T00:00:00Z",
+    "homeTeam": "Brentford FC",
+    "awayTeam": "Manchester City FC",
+    "matchday": 7
+  },
+  {
+    "utcDate": "2025-10-04T00:00:00Z",
+    "homeTeam": "Chelsea FC",
+    "awayTeam": "Liverpool FC",
+    "matchday": 7
+  },
+  {
+    "utcDate": "2025-10-04T00:00:00Z",
+    "homeTeam": "Everton FC",
+    "awayTeam": "Crystal Palace FC",
+    "matchday": 7
+  },
+  {
+    "utcDate": "2025-10-04T00:00:00Z",
+    "homeTeam": "Leeds United FC",
+    "awayTeam": "Tottenham Hotspur FC",
+    "matchday": 7
+  },
+  {
+    "utcDate": "2025-10-04T00:00:00Z",
+    "homeTeam": "Manchester United FC",
+    "awayTeam": "Sunderland AFC",
+    "matchday": 7
+  },
+  {
+    "utcDate": "2025-10-04T00:00:00Z",
+    "homeTeam": "Newcastle United FC",
+    "awayTeam": "Nottingham Forest FC",
+    "matchday": 7
+  },
+  {
+    "utcDate": "2025-10-04T00:00:00Z",
+    "homeTeam": "Wolverhampton Wanderers FC",
+    "awayTeam": "Brighton & Hove Albion FC",
+    "matchday": 7
+  },
+  {
+    "utcDate": "2025-10-18T00:00:00Z",
+    "homeTeam": "Brighton & Hove Albion FC",
+    "awayTeam": "Newcastle United FC",
+    "matchday": 8
+  },
+  {
+    "utcDate": "2025-10-18T00:00:00Z",
+    "homeTeam": "Crystal Palace FC",
+    "awayTeam": "AFC Bournemouth",
+    "matchday": 8
+  },
+  {
+    "utcDate": "2025-10-18T00:00:00Z",
+    "homeTeam": "Burnley FC",
+    "awayTeam": "Leeds United FC",
+    "matchday": 8
+  },
+  {
+    "utcDate": "2025-10-18T00:00:00Z",
+    "homeTeam": "Fulham FC",
+    "awayTeam": "Arsenal FC",
+    "matchday": 8
+  },
+  {
+    "utcDate": "2025-10-18T00:00:00Z",
+    "homeTeam": "Liverpool FC",
+    "awayTeam": "Manchester United FC",
+    "matchday": 8
+  },
+  {
+    "utcDate": "2025-10-18T00:00:00Z",
+    "homeTeam": "Manchester City FC",
+    "awayTeam": "Everton FC",
+    "matchday": 8
+  },
+  {
+    "utcDate": "2025-10-18T00:00:00Z",
+    "homeTeam": "Nottingham Forest FC",
+    "awayTeam": "Chelsea FC",
+    "matchday": 8
+  },
+  {
+    "utcDate": "2025-10-18T00:00:00Z",
+    "homeTeam": "Tottenham Hotspur FC",
+    "awayTeam": "Aston Villa FC",
+    "matchday": 8
+  },
+  {
+    "utcDate": "2025-10-18T00:00:00Z",
+    "homeTeam": "West Ham United FC",
+    "awayTeam": "Brentford FC",
+    "matchday": 8
+  },
+  {
+    "utcDate": "2025-10-18T00:00:00Z",
+    "homeTeam": "Sunderland AFC",
+    "awayTeam": "Wolverhampton Wanderers FC",
+    "matchday": 8
+  },
+  {
+    "utcDate": "2025-10-25T00:00:00Z",
+    "homeTeam": "AFC Bournemouth",
+    "awayTeam": "Nottingham Forest FC",
+    "matchday": 9
+  },
+  {
+    "utcDate": "2025-10-25T00:00:00Z",
+    "homeTeam": "Aston Villa FC",
+    "awayTeam": "Manchester City FC",
+    "matchday": 9
+  },
+  {
+    "utcDate": "2025-10-25T00:00:00Z",
+    "homeTeam": "Arsenal FC",
+    "awayTeam": "Crystal Palace FC",
+    "matchday": 9
+  },
+  {
+    "utcDate": "2025-10-25T00:00:00Z",
+    "homeTeam": "Brentford FC",
+    "awayTeam": "Liverpool FC",
+    "matchday": 9
+  },
+  {
+    "utcDate": "2025-10-25T00:00:00Z",
+    "homeTeam": "Chelsea FC",
+    "awayTeam": "Sunderland AFC",
+    "matchday": 9
+  },
+  {
+    "utcDate": "2025-10-25T00:00:00Z",
+    "homeTeam": "Everton FC",
+    "awayTeam": "Tottenham Hotspur FC",
+    "matchday": 9
+  },
+  {
+    "utcDate": "2025-10-25T00:00:00Z",
+    "homeTeam": "Leeds United FC",
+    "awayTeam": "West Ham United FC",
+    "matchday": 9
+  },
+  {
+    "utcDate": "2025-10-25T00:00:00Z",
+    "homeTeam": "Manchester United FC",
+    "awayTeam": "Brighton & Hove Albion FC",
+    "matchday": 9
+  },
+  {
+    "utcDate": "2025-10-25T00:00:00Z",
+    "homeTeam": "Newcastle United FC",
+    "awayTeam": "Fulham FC",
+    "matchday": 9
+  },
+  {
+    "utcDate": "2025-10-25T00:00:00Z",
+    "homeTeam": "Wolverhampton Wanderers FC",
+    "awayTeam": "Burnley FC",
+    "matchday": 9
+  },
+  {
+    "utcDate": "2025-11-01T00:00:00Z",
+    "homeTeam": "Sunderland AFC",
+    "awayTeam": "Everton FC",
+    "matchday": 10
+  },
+  {
+    "utcDate": "2025-11-01T00:00:00Z",
+    "homeTeam": "Brighton & Hove Albion FC",
+    "awayTeam": "Leeds United FC",
+    "matchday": 10
+  },
+  {
+    "utcDate": "2025-11-01T00:00:00Z",
+    "homeTeam": "Crystal Palace FC",
+    "awayTeam": "Brentford FC",
+    "matchday": 10
+  },
+  {
+    "utcDate": "2025-11-01T00:00:00Z",
+    "homeTeam": "Burnley FC",
+    "awayTeam": "Arsenal FC",
+    "matchday": 10
+  },
+  {
+    "utcDate": "2025-11-01T00:00:00Z",
+    "homeTeam": "Fulham FC",
+    "awayTeam": "Wolverhampton Wanderers FC",
+    "matchday": 10
+  },
+  {
+    "utcDate": "2025-11-01T00:00:00Z",
+    "homeTeam": "Liverpool FC",
+    "awayTeam": "Aston Villa FC",
+    "matchday": 10
+  },
+  {
+    "utcDate": "2025-11-01T00:00:00Z",
+    "homeTeam": "Manchester City FC",
+    "awayTeam": "AFC Bournemouth",
+    "matchday": 10
+  },
+  {
+    "utcDate": "2025-11-01T00:00:00Z",
+    "homeTeam": "Nottingham Forest FC",
+    "awayTeam": "Manchester United FC",
+    "matchday": 10
+  },
+  {
+    "utcDate": "2025-11-01T00:00:00Z",
+    "homeTeam": "Tottenham Hotspur FC",
+    "awayTeam": "Chelsea FC",
+    "matchday": 10
+  },
+  {
+    "utcDate": "2025-11-01T00:00:00Z",
+    "homeTeam": "West Ham United FC",
+    "awayTeam": "Newcastle United FC",
+    "matchday": 10
+  },
+  {
+    "utcDate": "2025-11-08T00:00:00Z",
+    "homeTeam": "Sunderland AFC",
+    "awayTeam": "Arsenal FC",
+    "matchday": 11
+  },
+  {
+    "utcDate": "2025-11-08T00:00:00Z",
+    "homeTeam": "Aston Villa FC",
+    "awayTeam": "AFC Bournemouth",
+    "matchday": 11
+  },
+  {
+    "utcDate": "2025-11-08T00:00:00Z",
+    "homeTeam": "Crystal Palace FC",
+    "awayTeam": "Brighton & Hove Albion FC",
+    "matchday": 11
+  },
+  {
+    "utcDate": "2025-11-08T00:00:00Z",
+    "homeTeam": "Brentford FC",
+    "awayTeam": "Newcastle United FC",
+    "matchday": 11
+  },
+  {
+    "utcDate": "2025-11-08T00:00:00Z",
+    "homeTeam": "Chelsea FC",
+    "awayTeam": "Wolverhampton Wanderers FC",
+    "matchday": 11
+  },
+  {
+    "utcDate": "2025-11-08T00:00:00Z",
+    "homeTeam": "Everton FC",
+    "awayTeam": "Fulham FC",
+    "matchday": 11
+  },
+  {
+    "utcDate": "2025-11-08T00:00:00Z",
+    "homeTeam": "Manchester City FC",
+    "awayTeam": "Liverpool FC",
+    "matchday": 11
+  },
+  {
+    "utcDate": "2025-11-08T00:00:00Z",
+    "homeTeam": "Nottingham Forest FC",
+    "awayTeam": "Leeds United FC",
+    "matchday": 11
+  },
+  {
+    "utcDate": "2025-11-08T00:00:00Z",
+    "homeTeam": "Tottenham Hotspur FC",
+    "awayTeam": "Manchester United FC",
+    "matchday": 11
+  },
+  {
+    "utcDate": "2025-11-08T00:00:00Z",
+    "homeTeam": "West Ham United FC",
+    "awayTeam": "Burnley FC",
+    "matchday": 11
+  },
+  {
+    "utcDate": "2025-11-22T00:00:00Z",
+    "homeTeam": "AFC Bournemouth",
+    "awayTeam": "West Ham United FC",
+    "matchday": 12
+  },
+  {
+    "utcDate": "2025-11-22T00:00:00Z",
+    "homeTeam": "Brighton & Hove Albion FC",
+    "awayTeam": "Brentford FC",
+    "matchday": 12
+  },
+  {
+    "utcDate": "2025-11-22T00:00:00Z",
+    "homeTeam": "Arsenal FC",
+    "awayTeam": "Tottenham Hotspur FC",
+    "matchday": 12
+  },
+  {
+    "utcDate": "2025-11-22T00:00:00Z",
+    "homeTeam": "Burnley FC",
+    "awayTeam": "Chelsea FC",
+    "matchday": 12
+  },
+  {
+    "utcDate": "2025-11-22T00:00:00Z",
+    "homeTeam": "Fulham FC",
+    "awayTeam": "Sunderland AFC",
+    "matchday": 12
+  },
+  {
+    "utcDate": "2025-11-22T00:00:00Z",
+    "homeTeam": "Liverpool FC",
+    "awayTeam": "Nottingham Forest FC",
+    "matchday": 12
+  },
+  {
+    "utcDate": "2025-11-22T00:00:00Z",
+    "homeTeam": "Leeds United FC",
+    "awayTeam": "Aston Villa FC",
+    "matchday": 12
+  },
+  {
+    "utcDate": "2025-11-22T00:00:00Z",
+    "homeTeam": "Manchester United FC",
+    "awayTeam": "Everton FC",
+    "matchday": 12
+  },
+  {
+    "utcDate": "2025-11-22T00:00:00Z",
+    "homeTeam": "Newcastle United FC",
+    "awayTeam": "Manchester City FC",
+    "matchday": 12
+  },
+  {
+    "utcDate": "2025-11-22T00:00:00Z",
+    "homeTeam": "Wolverhampton Wanderers FC",
+    "awayTeam": "Crystal Palace FC",
+    "matchday": 12
+  },
+  {
+    "utcDate": "2025-11-29T00:00:00Z",
+    "homeTeam": "Sunderland AFC",
+    "awayTeam": "AFC Bournemouth",
+    "matchday": 13
+  },
+  {
+    "utcDate": "2025-11-29T00:00:00Z",
+    "homeTeam": "Aston Villa FC",
+    "awayTeam": "Wolverhampton Wanderers FC",
+    "matchday": 13
+  },
+  {
+    "utcDate": "2025-11-29T00:00:00Z",
+    "homeTeam": "Crystal Palace FC",
+    "awayTeam": "Manchester United FC",
+    "matchday": 13
+  },
+  {
+    "utcDate": "2025-11-29T00:00:00Z",
+    "homeTeam": "Brentford FC",
+    "awayTeam": "Burnley FC",
+    "matchday": 13
+  },
+  {
+    "utcDate": "2025-11-29T00:00:00Z",
+    "homeTeam": "Chelsea FC",
+    "awayTeam": "Arsenal FC",
+    "matchday": 13
+  },
+  {
+    "utcDate": "2025-11-29T00:00:00Z",
+    "homeTeam": "Everton FC",
+    "awayTeam": "Newcastle United FC",
+    "matchday": 13
+  },
+  {
+    "utcDate": "2025-11-29T00:00:00Z",
+    "homeTeam": "Manchester City FC",
+    "awayTeam": "Leeds United FC",
+    "matchday": 13
+  },
+  {
+    "utcDate": "2025-11-29T00:00:00Z",
+    "homeTeam": "Nottingham Forest FC",
+    "awayTeam": "Brighton & Hove Albion FC",
+    "matchday": 13
+  },
+  {
+    "utcDate": "2025-11-29T00:00:00Z",
+    "homeTeam": "Tottenham Hotspur FC",
+    "awayTeam": "Fulham FC",
+    "matchday": 13
+  },
+  {
+    "utcDate": "2025-11-29T00:00:00Z",
+    "homeTeam": "West Ham United FC",
+    "awayTeam": "Liverpool FC",
+    "matchday": 13
+  },
+  {
+    "utcDate": "2025-12-03T00:00:00Z",
+    "homeTeam": "AFC Bournemouth",
+    "awayTeam": "Everton FC",
+    "matchday": 14
+  },
+  {
+    "utcDate": "2025-12-03T00:00:00Z",
+    "homeTeam": "Brighton & Hove Albion FC",
+    "awayTeam": "Aston Villa FC",
+    "matchday": 14
+  },
+  {
+    "utcDate": "2025-12-03T00:00:00Z",
+    "homeTeam": "Arsenal FC",
+    "awayTeam": "Brentford FC",
+    "matchday": 14
+  },
+  {
+    "utcDate": "2025-12-03T00:00:00Z",
+    "homeTeam": "Burnley FC",
+    "awayTeam": "Crystal Palace FC",
+    "matchday": 14
+  },
+  {
+    "utcDate": "2025-12-03T00:00:00Z",
+    "homeTeam": "Fulham FC",
+    "awayTeam": "Manchester City FC",
+    "matchday": 14
+  },
+  {
+    "utcDate": "2025-12-03T00:00:00Z",
+    "homeTeam": "Liverpool FC",
+    "awayTeam": "Sunderland AFC",
+    "matchday": 14
+  },
+  {
+    "utcDate": "2025-12-03T00:00:00Z",
+    "homeTeam": "Leeds United FC",
+    "awayTeam": "Chelsea FC",
+    "matchday": 14
+  },
+  {
+    "utcDate": "2025-12-03T00:00:00Z",
+    "homeTeam": "Manchester United FC",
+    "awayTeam": "West Ham United FC",
+    "matchday": 14
+  },
+  {
+    "utcDate": "2025-12-03T00:00:00Z",
+    "homeTeam": "Newcastle United FC",
+    "awayTeam": "Tottenham Hotspur FC",
+    "matchday": 14
+  },
+  {
+    "utcDate": "2025-12-03T00:00:00Z",
+    "homeTeam": "Wolverhampton Wanderers FC",
+    "awayTeam": "Nottingham Forest FC",
+    "matchday": 14
+  },
+  {
+    "utcDate": "2025-12-06T00:00:00Z",
+    "homeTeam": "AFC Bournemouth",
+    "awayTeam": "Chelsea FC",
+    "matchday": 15
+  },
+  {
+    "utcDate": "2025-12-06T00:00:00Z",
+    "homeTeam": "Aston Villa FC",
+    "awayTeam": "Arsenal FC",
+    "matchday": 15
+  },
+  {
+    "utcDate": "2025-12-06T00:00:00Z",
+    "homeTeam": "Brighton & Hove Albion FC",
+    "awayTeam": "West Ham United FC",
+    "matchday": 15
+  },
+  {
+    "utcDate": "2025-12-06T00:00:00Z",
+    "homeTeam": "Everton FC",
+    "awayTeam": "Nottingham Forest FC",
+    "matchday": 15
+  },
+  {
+    "utcDate": "2025-12-06T00:00:00Z",
+    "homeTeam": "Fulham FC",
+    "awayTeam": "Crystal Palace FC",
+    "matchday": 15
+  },
+  {
+    "utcDate": "2025-12-06T00:00:00Z",
+    "homeTeam": "Leeds United FC",
+    "awayTeam": "Liverpool FC",
+    "matchday": 15
+  },
+  {
+    "utcDate": "2025-12-06T00:00:00Z",
+    "homeTeam": "Manchester City FC",
+    "awayTeam": "Sunderland AFC",
+    "matchday": 15
+  },
+  {
+    "utcDate": "2025-12-06T00:00:00Z",
+    "homeTeam": "Newcastle United FC",
+    "awayTeam": "Burnley FC",
+    "matchday": 15
+  },
+  {
+    "utcDate": "2025-12-06T00:00:00Z",
+    "homeTeam": "Tottenham Hotspur FC",
+    "awayTeam": "Brentford FC",
+    "matchday": 15
+  },
+  {
+    "utcDate": "2025-12-06T00:00:00Z",
+    "homeTeam": "Wolverhampton Wanderers FC",
+    "awayTeam": "Manchester United FC",
+    "matchday": 15
+  },
+  {
+    "utcDate": "2025-12-13T00:00:00Z",
+    "homeTeam": "Sunderland AFC",
+    "awayTeam": "Newcastle United FC",
+    "matchday": 16
+  },
+  {
+    "utcDate": "2025-12-13T00:00:00Z",
+    "homeTeam": "Crystal Palace FC",
+    "awayTeam": "Manchester City FC",
+    "matchday": 16
+  },
+  {
+    "utcDate": "2025-12-13T00:00:00Z",
+    "homeTeam": "Arsenal FC",
+    "awayTeam": "Wolverhampton Wanderers FC",
+    "matchday": 16
+  },
+  {
+    "utcDate": "2025-12-13T00:00:00Z",
+    "homeTeam": "Brentford FC",
+    "awayTeam": "Leeds United FC",
+    "matchday": 16
+  },
+  {
+    "utcDate": "2025-12-13T00:00:00Z",
+    "homeTeam": "Burnley FC",
+    "awayTeam": "Fulham FC",
+    "matchday": 16
+  },
+  {
+    "utcDate": "2025-12-13T00:00:00Z",
+    "homeTeam": "Chelsea FC",
+    "awayTeam": "Everton FC",
+    "matchday": 16
+  },
+  {
+    "utcDate": "2025-12-13T00:00:00Z",
+    "homeTeam": "Liverpool FC",
+    "awayTeam": "Brighton & Hove Albion FC",
+    "matchday": 16
+  },
+  {
+    "utcDate": "2025-12-13T00:00:00Z",
+    "homeTeam": "Manchester United FC",
+    "awayTeam": "AFC Bournemouth",
+    "matchday": 16
+  },
+  {
+    "utcDate": "2025-12-13T00:00:00Z",
+    "homeTeam": "Nottingham Forest FC",
+    "awayTeam": "Tottenham Hotspur FC",
+    "matchday": 16
+  },
+  {
+    "utcDate": "2025-12-13T00:00:00Z",
+    "homeTeam": "West Ham United FC",
+    "awayTeam": "Aston Villa FC",
+    "matchday": 16
+  },
+  {
+    "utcDate": "2025-12-20T00:00:00Z",
+    "homeTeam": "AFC Bournemouth",
+    "awayTeam": "Burnley FC",
+    "matchday": 17
+  },
+  {
+    "utcDate": "2025-12-20T00:00:00Z",
+    "homeTeam": "Aston Villa FC",
+    "awayTeam": "Manchester United FC",
+    "matchday": 17
+  },
+  {
+    "utcDate": "2025-12-20T00:00:00Z",
+    "homeTeam": "Brighton & Hove Albion FC",
+    "awayTeam": "Sunderland AFC",
+    "matchday": 17
+  },
+  {
+    "utcDate": "2025-12-20T00:00:00Z",
+    "homeTeam": "Everton FC",
+    "awayTeam": "Arsenal FC",
+    "matchday": 17
+  },
+  {
+    "utcDate": "2025-12-20T00:00:00Z",
+    "homeTeam": "Fulham FC",
+    "awayTeam": "Nottingham Forest FC",
+    "matchday": 17
+  },
+  {
+    "utcDate": "2025-12-20T00:00:00Z",
+    "homeTeam": "Leeds United FC",
+    "awayTeam": "Crystal Palace FC",
+    "matchday": 17
+  },
+  {
+    "utcDate": "2025-12-20T00:00:00Z",
+    "homeTeam": "Manchester City FC",
+    "awayTeam": "West Ham United FC",
+    "matchday": 17
+  },
+  {
+    "utcDate": "2025-12-20T00:00:00Z",
+    "homeTeam": "Newcastle United FC",
+    "awayTeam": "Chelsea FC",
+    "matchday": 17
+  },
+  {
+    "utcDate": "2025-12-20T00:00:00Z",
+    "homeTeam": "Tottenham Hotspur FC",
+    "awayTeam": "Liverpool FC",
+    "matchday": 17
+  },
+  {
+    "utcDate": "2025-12-20T00:00:00Z",
+    "homeTeam": "Wolverhampton Wanderers FC",
+    "awayTeam": "Brentford FC",
+    "matchday": 17
+  },
+  {
+    "utcDate": "2025-12-27T00:00:00Z",
+    "homeTeam": "Sunderland AFC",
+    "awayTeam": "Leeds United FC",
+    "matchday": 18
+  },
+  {
+    "utcDate": "2025-12-27T00:00:00Z",
+    "homeTeam": "Crystal Palace FC",
+    "awayTeam": "Tottenham Hotspur FC",
+    "matchday": 18
+  },
+  {
+    "utcDate": "2025-12-27T00:00:00Z",
+    "homeTeam": "Arsenal FC",
+    "awayTeam": "Brighton & Hove Albion FC",
+    "matchday": 18
+  },
+  {
+    "utcDate": "2025-12-27T00:00:00Z",
+    "homeTeam": "Brentford FC",
+    "awayTeam": "AFC Bournemouth",
+    "matchday": 18
+  },
+  {
+    "utcDate": "2025-12-27T00:00:00Z",
+    "homeTeam": "Burnley FC",
+    "awayTeam": "Everton FC",
+    "matchday": 18
+  },
+  {
+    "utcDate": "2025-12-27T00:00:00Z",
+    "homeTeam": "Chelsea FC",
+    "awayTeam": "Aston Villa FC",
+    "matchday": 18
+  },
+  {
+    "utcDate": "2025-12-27T00:00:00Z",
+    "homeTeam": "Liverpool FC",
+    "awayTeam": "Wolverhampton Wanderers FC",
+    "matchday": 18
+  },
+  {
+    "utcDate": "2025-12-27T00:00:00Z",
+    "homeTeam": "Manchester United FC",
+    "awayTeam": "Newcastle United FC",
+    "matchday": 18
+  },
+  {
+    "utcDate": "2025-12-27T00:00:00Z",
+    "homeTeam": "Nottingham Forest FC",
+    "awayTeam": "Manchester City FC",
+    "matchday": 18
+  },
+  {
+    "utcDate": "2025-12-27T00:00:00Z",
+    "homeTeam": "West Ham United FC",
+    "awayTeam": "Fulham FC",
+    "matchday": 18
+  },
+  {
+    "utcDate": "2025-12-30T00:00:00Z",
+    "homeTeam": "Sunderland AFC",
+    "awayTeam": "Manchester City FC",
+    "matchday": 19
+  },
+  {
+    "utcDate": "2025-12-30T00:00:00Z",
+    "homeTeam": "Crystal Palace FC",
+    "awayTeam": "Fulham FC",
+    "matchday": 19
+  },
+  {
+    "utcDate": "2025-12-30T00:00:00Z",
+    "homeTeam": "Arsenal FC",
+    "awayTeam": "Aston Villa FC",
+    "matchday": 19
+  },
+  {
+    "utcDate": "2025-12-30T00:00:00Z",
+    "homeTeam": "Brentford FC",
+    "awayTeam": "Tottenham Hotspur FC",
+    "matchday": 19
+  },
+  {
+    "utcDate": "2025-12-30T00:00:00Z",
+    "homeTeam": "Burnley FC",
+    "awayTeam": "Newcastle United FC",
+    "matchday": 19
+  },
+  {
+    "utcDate": "2025-12-30T00:00:00Z",
+    "homeTeam": "Chelsea FC",
+    "awayTeam": "AFC Bournemouth",
+    "matchday": 19
+  },
+  {
+    "utcDate": "2025-12-30T00:00:00Z",
+    "homeTeam": "Liverpool FC",
+    "awayTeam": "Leeds United FC",
+    "matchday": 19
+  },
+  {
+    "utcDate": "2025-12-30T00:00:00Z",
+    "homeTeam": "Manchester United FC",
+    "awayTeam": "Wolverhampton Wanderers FC",
+    "matchday": 19
+  },
+  {
+    "utcDate": "2025-12-30T00:00:00Z",
+    "homeTeam": "Nottingham Forest FC",
+    "awayTeam": "Everton FC",
+    "matchday": 19
+  },
+  {
+    "utcDate": "2025-12-30T00:00:00Z",
+    "homeTeam": "West Ham United FC",
+    "awayTeam": "Brighton & Hove Albion FC",
+    "matchday": 19
+  },
+  {
+    "utcDate": "2026-01-03T00:00:00Z",
+    "homeTeam": "AFC Bournemouth",
+    "awayTeam": "Arsenal FC",
+    "matchday": 20
+  },
+  {
+    "utcDate": "2026-01-03T00:00:00Z",
+    "homeTeam": "Aston Villa FC",
+    "awayTeam": "Nottingham Forest FC",
+    "matchday": 20
+  },
+  {
+    "utcDate": "2026-01-03T00:00:00Z",
+    "homeTeam": "Brighton & Hove Albion FC",
+    "awayTeam": "Burnley FC",
+    "matchday": 20
+  },
+  {
+    "utcDate": "2026-01-03T00:00:00Z",
+    "homeTeam": "Everton FC",
+    "awayTeam": "Brentford FC",
+    "matchday": 20
+  },
+  {
+    "utcDate": "2026-01-03T00:00:00Z",
+    "homeTeam": "Fulham FC",
+    "awayTeam": "Liverpool FC",
+    "matchday": 20
+  },
+  {
+    "utcDate": "2026-01-03T00:00:00Z",
+    "homeTeam": "Leeds United FC",
+    "awayTeam": "Manchester United FC",
+    "matchday": 20
+  },
+  {
+    "utcDate": "2026-01-03T00:00:00Z",
+    "homeTeam": "Manchester City FC",
+    "awayTeam": "Chelsea FC",
+    "matchday": 20
+  },
+  {
+    "utcDate": "2026-01-03T00:00:00Z",
+    "homeTeam": "Newcastle United FC",
+    "awayTeam": "Crystal Palace FC",
+    "matchday": 20
+  },
+  {
+    "utcDate": "2026-01-03T00:00:00Z",
+    "homeTeam": "Tottenham Hotspur FC",
+    "awayTeam": "Sunderland AFC",
+    "matchday": 20
+  },
+  {
+    "utcDate": "2026-01-03T00:00:00Z",
+    "homeTeam": "Wolverhampton Wanderers FC",
+    "awayTeam": "West Ham United FC",
+    "matchday": 20
+  },
+  {
+    "utcDate": "2026-01-07T00:00:00Z",
+    "homeTeam": "AFC Bournemouth",
+    "awayTeam": "Tottenham Hotspur FC",
+    "matchday": 21
+  },
+  {
+    "utcDate": "2026-01-07T00:00:00Z",
+    "homeTeam": "Crystal Palace FC",
+    "awayTeam": "Aston Villa FC",
+    "matchday": 21
+  },
+  {
+    "utcDate": "2026-01-07T00:00:00Z",
+    "homeTeam": "Arsenal FC",
+    "awayTeam": "Liverpool FC",
+    "matchday": 21
+  },
+  {
+    "utcDate": "2026-01-07T00:00:00Z",
+    "homeTeam": "Brentford FC",
+    "awayTeam": "Sunderland AFC",
+    "matchday": 21
+  },
+  {
+    "utcDate": "2026-01-07T00:00:00Z",
+    "homeTeam": "Burnley FC",
+    "awayTeam": "Manchester United FC",
+    "matchday": 21
+  },
+  {
+    "utcDate": "2026-01-07T00:00:00Z",
+    "homeTeam": "Everton FC",
+    "awayTeam": "Wolverhampton Wanderers FC",
+    "matchday": 21
+  },
+  {
+    "utcDate": "2026-01-07T00:00:00Z",
+    "homeTeam": "Fulham FC",
+    "awayTeam": "Chelsea FC",
+    "matchday": 21
+  },
+  {
+    "utcDate": "2026-01-07T00:00:00Z",
+    "homeTeam": "Manchester City FC",
+    "awayTeam": "Brighton & Hove Albion FC",
+    "matchday": 21
+  },
+  {
+    "utcDate": "2026-01-07T00:00:00Z",
+    "homeTeam": "Newcastle United FC",
+    "awayTeam": "Leeds United FC",
+    "matchday": 21
+  },
+  {
+    "utcDate": "2026-01-07T00:00:00Z",
+    "homeTeam": "West Ham United FC",
+    "awayTeam": "Nottingham Forest FC",
+    "matchday": 21
+  },
+  {
+    "utcDate": "2026-01-17T00:00:00Z",
+    "homeTeam": "Sunderland AFC",
+    "awayTeam": "Crystal Palace FC",
+    "matchday": 22
+  },
+  {
+    "utcDate": "2026-01-17T00:00:00Z",
+    "homeTeam": "Aston Villa FC",
+    "awayTeam": "Everton FC",
+    "matchday": 22
+  },
+  {
+    "utcDate": "2026-01-17T00:00:00Z",
+    "homeTeam": "Brighton & Hove Albion FC",
+    "awayTeam": "AFC Bournemouth",
+    "matchday": 22
+  },
+  {
+    "utcDate": "2026-01-17T00:00:00Z",
+    "homeTeam": "Chelsea FC",
+    "awayTeam": "Brentford FC",
+    "matchday": 22
+  },
+  {
+    "utcDate": "2026-01-17T00:00:00Z",
+    "homeTeam": "Liverpool FC",
+    "awayTeam": "Burnley FC",
+    "matchday": 22
+  },
+  {
+    "utcDate": "2026-01-17T00:00:00Z",
+    "homeTeam": "Leeds United FC",
+    "awayTeam": "Fulham FC",
+    "matchday": 22
+  },
+  {
+    "utcDate": "2026-01-17T00:00:00Z",
+    "homeTeam": "Manchester United FC",
+    "awayTeam": "Manchester City FC",
+    "matchday": 22
+  },
+  {
+    "utcDate": "2026-01-17T00:00:00Z",
+    "homeTeam": "Nottingham Forest FC",
+    "awayTeam": "Arsenal FC",
+    "matchday": 22
+  },
+  {
+    "utcDate": "2026-01-17T00:00:00Z",
+    "homeTeam": "Tottenham Hotspur FC",
+    "awayTeam": "West Ham United FC",
+    "matchday": 22
+  },
+  {
+    "utcDate": "2026-01-17T00:00:00Z",
+    "homeTeam": "Wolverhampton Wanderers FC",
+    "awayTeam": "Newcastle United FC",
+    "matchday": 22
+  },
+  {
+    "utcDate": "2026-01-24T00:00:00Z",
+    "homeTeam": "AFC Bournemouth",
+    "awayTeam": "Liverpool FC",
+    "matchday": 23
+  },
+  {
+    "utcDate": "2026-01-24T00:00:00Z",
+    "homeTeam": "Crystal Palace FC",
+    "awayTeam": "Chelsea FC",
+    "matchday": 23
+  },
+  {
+    "utcDate": "2026-01-24T00:00:00Z",
+    "homeTeam": "Arsenal FC",
+    "awayTeam": "Manchester United FC",
+    "matchday": 23
+  },
+  {
+    "utcDate": "2026-01-24T00:00:00Z",
+    "homeTeam": "Brentford FC",
+    "awayTeam": "Nottingham Forest FC",
+    "matchday": 23
+  },
+  {
+    "utcDate": "2026-01-24T00:00:00Z",
+    "homeTeam": "Burnley FC",
+    "awayTeam": "Tottenham Hotspur FC",
+    "matchday": 23
+  },
+  {
+    "utcDate": "2026-01-24T00:00:00Z",
+    "homeTeam": "Everton FC",
+    "awayTeam": "Leeds United FC",
+    "matchday": 23
+  },
+  {
+    "utcDate": "2026-01-24T00:00:00Z",
+    "homeTeam": "Fulham FC",
+    "awayTeam": "Brighton & Hove Albion FC",
+    "matchday": 23
+  },
+  {
+    "utcDate": "2026-01-24T00:00:00Z",
+    "homeTeam": "Manchester City FC",
+    "awayTeam": "Wolverhampton Wanderers FC",
+    "matchday": 23
+  },
+  {
+    "utcDate": "2026-01-24T00:00:00Z",
+    "homeTeam": "Newcastle United FC",
+    "awayTeam": "Aston Villa FC",
+    "matchday": 23
+  },
+  {
+    "utcDate": "2026-01-24T00:00:00Z",
+    "homeTeam": "West Ham United FC",
+    "awayTeam": "Sunderland AFC",
+    "matchday": 23
+  },
+  {
+    "utcDate": "2026-01-31T00:00:00Z",
+    "homeTeam": "Sunderland AFC",
+    "awayTeam": "Burnley FC",
+    "matchday": 24
+  },
+  {
+    "utcDate": "2026-01-31T00:00:00Z",
+    "homeTeam": "Aston Villa FC",
+    "awayTeam": "Brentford FC",
+    "matchday": 24
+  },
+  {
+    "utcDate": "2026-01-31T00:00:00Z",
+    "homeTeam": "Brighton & Hove Albion FC",
+    "awayTeam": "Everton FC",
+    "matchday": 24
+  },
+  {
+    "utcDate": "2026-01-31T00:00:00Z",
+    "homeTeam": "Chelsea FC",
+    "awayTeam": "West Ham United FC",
+    "matchday": 24
+  },
+  {
+    "utcDate": "2026-01-31T00:00:00Z",
+    "homeTeam": "Liverpool FC",
+    "awayTeam": "Newcastle United FC",
+    "matchday": 24
+  },
+  {
+    "utcDate": "2026-01-31T00:00:00Z",
+    "homeTeam": "Leeds United FC",
+    "awayTeam": "Arsenal FC",
+    "matchday": 24
+  },
+  {
+    "utcDate": "2026-01-31T00:00:00Z",
+    "homeTeam": "Manchester United FC",
+    "awayTeam": "Fulham FC",
+    "matchday": 24
+  },
+  {
+    "utcDate": "2026-01-31T00:00:00Z",
+    "homeTeam": "Nottingham Forest FC",
+    "awayTeam": "Crystal Palace FC",
+    "matchday": 24
+  },
+  {
+    "utcDate": "2026-01-31T00:00:00Z",
+    "homeTeam": "Tottenham Hotspur FC",
+    "awayTeam": "Manchester City FC",
+    "matchday": 24
+  },
+  {
+    "utcDate": "2026-01-31T00:00:00Z",
+    "homeTeam": "Wolverhampton Wanderers FC",
+    "awayTeam": "AFC Bournemouth",
+    "matchday": 24
+  },
+  {
+    "utcDate": "2026-02-07T00:00:00Z",
+    "homeTeam": "AFC Bournemouth",
+    "awayTeam": "Aston Villa FC",
+    "matchday": 25
+  },
+  {
+    "utcDate": "2026-02-07T00:00:00Z",
+    "homeTeam": "Brighton & Hove Albion FC",
+    "awayTeam": "Crystal Palace FC",
+    "matchday": 25
+  },
+  {
+    "utcDate": "2026-02-07T00:00:00Z",
+    "homeTeam": "Arsenal FC",
+    "awayTeam": "Sunderland AFC",
+    "matchday": 25
+  },
+  {
+    "utcDate": "2026-02-07T00:00:00Z",
+    "homeTeam": "Burnley FC",
+    "awayTeam": "West Ham United FC",
+    "matchday": 25
+  },
+  {
+    "utcDate": "2026-02-07T00:00:00Z",
+    "homeTeam": "Fulham FC",
+    "awayTeam": "Everton FC",
+    "matchday": 25
+  },
+  {
+    "utcDate": "2026-02-07T00:00:00Z",
+    "homeTeam": "Liverpool FC",
+    "awayTeam": "Manchester City FC",
+    "matchday": 25
+  },
+  {
+    "utcDate": "2026-02-07T00:00:00Z",
+    "homeTeam": "Leeds United FC",
+    "awayTeam": "Nottingham Forest FC",
+    "matchday": 25
+  },
+  {
+    "utcDate": "2026-02-07T00:00:00Z",
+    "homeTeam": "Manchester United FC",
+    "awayTeam": "Tottenham Hotspur FC",
+    "matchday": 25
+  },
+  {
+    "utcDate": "2026-02-07T00:00:00Z",
+    "homeTeam": "Newcastle United FC",
+    "awayTeam": "Brentford FC",
+    "matchday": 25
+  },
+  {
+    "utcDate": "2026-02-07T00:00:00Z",
+    "homeTeam": "Wolverhampton Wanderers FC",
+    "awayTeam": "Chelsea FC",
+    "matchday": 25
+  },
+  {
+    "utcDate": "2026-02-11T00:00:00Z",
+    "homeTeam": "Sunderland AFC",
+    "awayTeam": "Liverpool FC",
+    "matchday": 26
+  },
+  {
+    "utcDate": "2026-02-11T00:00:00Z",
+    "homeTeam": "Aston Villa FC",
+    "awayTeam": "Brighton & Hove Albion FC",
+    "matchday": 26
+  },
+  {
+    "utcDate": "2026-02-11T00:00:00Z",
+    "homeTeam": "Crystal Palace FC",
+    "awayTeam": "Burnley FC",
+    "matchday": 26
+  },
+  {
+    "utcDate": "2026-02-11T00:00:00Z",
+    "homeTeam": "Brentford FC",
+    "awayTeam": "Arsenal FC",
+    "matchday": 26
+  },
+  {
+    "utcDate": "2026-02-11T00:00:00Z",
+    "homeTeam": "Chelsea FC",
+    "awayTeam": "Leeds United FC",
+    "matchday": 26
+  },
+  {
+    "utcDate": "2026-02-11T00:00:00Z",
+    "homeTeam": "Everton FC",
+    "awayTeam": "AFC Bournemouth",
+    "matchday": 26
+  },
+  {
+    "utcDate": "2026-02-11T00:00:00Z",
+    "homeTeam": "Manchester City FC",
+    "awayTeam": "Fulham FC",
+    "matchday": 26
+  },
+  {
+    "utcDate": "2026-02-11T00:00:00Z",
+    "homeTeam": "Nottingham Forest FC",
+    "awayTeam": "Wolverhampton Wanderers FC",
+    "matchday": 26
+  },
+  {
+    "utcDate": "2026-02-11T00:00:00Z",
+    "homeTeam": "Tottenham Hotspur FC",
+    "awayTeam": "Newcastle United FC",
+    "matchday": 26
+  },
+  {
+    "utcDate": "2026-02-11T00:00:00Z",
+    "homeTeam": "West Ham United FC",
+    "awayTeam": "Manchester United FC",
+    "matchday": 26
+  },
+  {
+    "utcDate": "2026-02-21T00:00:00Z",
+    "homeTeam": "Sunderland AFC",
+    "awayTeam": "Fulham FC",
+    "matchday": 27
+  },
+  {
+    "utcDate": "2026-02-21T00:00:00Z",
+    "homeTeam": "Aston Villa FC",
+    "awayTeam": "Leeds United FC",
+    "matchday": 27
+  },
+  {
+    "utcDate": "2026-02-21T00:00:00Z",
+    "homeTeam": "Crystal Palace FC",
+    "awayTeam": "Wolverhampton Wanderers FC",
+    "matchday": 27
+  },
+  {
+    "utcDate": "2026-02-21T00:00:00Z",
+    "homeTeam": "Brentford FC",
+    "awayTeam": "Brighton & Hove Albion FC",
+    "matchday": 27
+  },
+  {
+    "utcDate": "2026-02-21T00:00:00Z",
+    "homeTeam": "Chelsea FC",
+    "awayTeam": "Burnley FC",
+    "matchday": 27
+  },
+  {
+    "utcDate": "2026-02-21T00:00:00Z",
+    "homeTeam": "Everton FC",
+    "awayTeam": "Manchester United FC",
+    "matchday": 27
+  },
+  {
+    "utcDate": "2026-02-21T00:00:00Z",
+    "homeTeam": "Manchester City FC",
+    "awayTeam": "Newcastle United FC",
+    "matchday": 27
+  },
+  {
+    "utcDate": "2026-02-21T00:00:00Z",
+    "homeTeam": "Nottingham Forest FC",
+    "awayTeam": "Liverpool FC",
+    "matchday": 27
+  },
+  {
+    "utcDate": "2026-02-21T00:00:00Z",
+    "homeTeam": "Tottenham Hotspur FC",
+    "awayTeam": "Arsenal FC",
+    "matchday": 27
+  },
+  {
+    "utcDate": "2026-02-21T00:00:00Z",
+    "homeTeam": "West Ham United FC",
+    "awayTeam": "AFC Bournemouth",
+    "matchday": 27
+  },
+  {
+    "utcDate": "2026-02-28T00:00:00Z",
+    "homeTeam": "AFC Bournemouth",
+    "awayTeam": "Sunderland AFC",
+    "matchday": 28
+  },
+  {
+    "utcDate": "2026-02-28T00:00:00Z",
+    "homeTeam": "Brighton & Hove Albion FC",
+    "awayTeam": "Nottingham Forest FC",
+    "matchday": 28
+  },
+  {
+    "utcDate": "2026-02-28T00:00:00Z",
+    "homeTeam": "Arsenal FC",
+    "awayTeam": "Chelsea FC",
+    "matchday": 28
+  },
+  {
+    "utcDate": "2026-02-28T00:00:00Z",
+    "homeTeam": "Burnley FC",
+    "awayTeam": "Brentford FC",
+    "matchday": 28
+  },
+  {
+    "utcDate": "2026-02-28T00:00:00Z",
+    "homeTeam": "Fulham FC",
+    "awayTeam": "Tottenham Hotspur FC",
+    "matchday": 28
+  },
+  {
+    "utcDate": "2026-02-28T00:00:00Z",
+    "homeTeam": "Liverpool FC",
+    "awayTeam": "West Ham United FC",
+    "matchday": 28
+  },
+  {
+    "utcDate": "2026-02-28T00:00:00Z",
+    "homeTeam": "Leeds United FC",
+    "awayTeam": "Manchester City FC",
+    "matchday": 28
+  },
+  {
+    "utcDate": "2026-02-28T00:00:00Z",
+    "homeTeam": "Manchester United FC",
+    "awayTeam": "Crystal Palace FC",
+    "matchday": 28
+  },
+  {
+    "utcDate": "2026-02-28T00:00:00Z",
+    "homeTeam": "Newcastle United FC",
+    "awayTeam": "Everton FC",
+    "matchday": 28
+  },
+  {
+    "utcDate": "2026-02-28T00:00:00Z",
+    "homeTeam": "Wolverhampton Wanderers FC",
+    "awayTeam": "Aston Villa FC",
+    "matchday": 28
+  },
+  {
+    "utcDate": "2026-03-04T00:00:00Z",
+    "homeTeam": "AFC Bournemouth",
+    "awayTeam": "Brentford FC",
+    "matchday": 29
+  },
+  {
+    "utcDate": "2026-03-04T00:00:00Z",
+    "homeTeam": "Aston Villa FC",
+    "awayTeam": "Chelsea FC",
+    "matchday": 29
+  },
+  {
+    "utcDate": "2026-03-04T00:00:00Z",
+    "homeTeam": "Brighton & Hove Albion FC",
+    "awayTeam": "Arsenal FC",
+    "matchday": 29
+  },
+  {
+    "utcDate": "2026-03-04T00:00:00Z",
+    "homeTeam": "Everton FC",
+    "awayTeam": "Burnley FC",
+    "matchday": 29
+  },
+  {
+    "utcDate": "2026-03-04T00:00:00Z",
+    "homeTeam": "Fulham FC",
+    "awayTeam": "West Ham United FC",
+    "matchday": 29
+  },
+  {
+    "utcDate": "2026-03-04T00:00:00Z",
+    "homeTeam": "Leeds United FC",
+    "awayTeam": "Sunderland AFC",
+    "matchday": 29
+  },
+  {
+    "utcDate": "2026-03-04T00:00:00Z",
+    "homeTeam": "Manchester City FC",
+    "awayTeam": "Nottingham Forest FC",
+    "matchday": 29
+  },
+  {
+    "utcDate": "2026-03-04T00:00:00Z",
+    "homeTeam": "Newcastle United FC",
+    "awayTeam": "Manchester United FC",
+    "matchday": 29
+  },
+  {
+    "utcDate": "2026-03-04T00:00:00Z",
+    "homeTeam": "Tottenham Hotspur FC",
+    "awayTeam": "Crystal Palace FC",
+    "matchday": 29
+  },
+  {
+    "utcDate": "2026-03-04T00:00:00Z",
+    "homeTeam": "Wolverhampton Wanderers FC",
+    "awayTeam": "Liverpool FC",
+    "matchday": 29
+  },
+  {
+    "utcDate": "2026-03-14T00:00:00Z",
+    "homeTeam": "Sunderland AFC",
+    "awayTeam": "Brighton & Hove Albion FC",
+    "matchday": 30
+  },
+  {
+    "utcDate": "2026-03-14T00:00:00Z",
+    "homeTeam": "Crystal Palace FC",
+    "awayTeam": "Leeds United FC",
+    "matchday": 30
+  },
+  {
+    "utcDate": "2026-03-14T00:00:00Z",
+    "homeTeam": "Arsenal FC",
+    "awayTeam": "Everton FC",
+    "matchday": 30
+  },
+  {
+    "utcDate": "2026-03-14T00:00:00Z",
+    "homeTeam": "Brentford FC",
+    "awayTeam": "Wolverhampton Wanderers FC",
+    "matchday": 30
+  },
+  {
+    "utcDate": "2026-03-14T00:00:00Z",
+    "homeTeam": "Burnley FC",
+    "awayTeam": "AFC Bournemouth",
+    "matchday": 30
+  },
+  {
+    "utcDate": "2026-03-14T00:00:00Z",
+    "homeTeam": "Chelsea FC",
+    "awayTeam": "Newcastle United FC",
+    "matchday": 30
+  },
+  {
+    "utcDate": "2026-03-14T00:00:00Z",
+    "homeTeam": "Liverpool FC",
+    "awayTeam": "Tottenham Hotspur FC",
+    "matchday": 30
+  },
+  {
+    "utcDate": "2026-03-14T00:00:00Z",
+    "homeTeam": "Manchester United FC",
+    "awayTeam": "Aston Villa FC",
+    "matchday": 30
+  },
+  {
+    "utcDate": "2026-03-14T00:00:00Z",
+    "homeTeam": "Nottingham Forest FC",
+    "awayTeam": "Fulham FC",
+    "matchday": 30
+  },
+  {
+    "utcDate": "2026-03-14T00:00:00Z",
+    "homeTeam": "West Ham United FC",
+    "awayTeam": "Manchester City FC",
+    "matchday": 30
+  },
+  {
+    "utcDate": "2026-03-21T00:00:00Z",
+    "homeTeam": "AFC Bournemouth",
+    "awayTeam": "Manchester United FC",
+    "matchday": 31
+  },
+  {
+    "utcDate": "2026-03-21T00:00:00Z",
+    "homeTeam": "Aston Villa FC",
+    "awayTeam": "West Ham United FC",
+    "matchday": 31
+  },
+  {
+    "utcDate": "2026-03-21T00:00:00Z",
+    "homeTeam": "Brighton & Hove Albion FC",
+    "awayTeam": "Liverpool FC",
+    "matchday": 31
+  },
+  {
+    "utcDate": "2026-03-21T00:00:00Z",
+    "homeTeam": "Everton FC",
+    "awayTeam": "Chelsea FC",
+    "matchday": 31
+  },
+  {
+    "utcDate": "2026-03-21T00:00:00Z",
+    "homeTeam": "Fulham FC",
+    "awayTeam": "Burnley FC",
+    "matchday": 31
+  },
+  {
+    "utcDate": "2026-03-21T00:00:00Z",
+    "homeTeam": "Leeds United FC",
+    "awayTeam": "Brentford FC",
+    "matchday": 31
+  },
+  {
+    "utcDate": "2026-03-21T00:00:00Z",
+    "homeTeam": "Manchester City FC",
+    "awayTeam": "Crystal Palace FC",
+    "matchday": 31
+  },
+  {
+    "utcDate": "2026-03-21T00:00:00Z",
+    "homeTeam": "Newcastle United FC",
+    "awayTeam": "Sunderland AFC",
+    "matchday": 31
+  },
+  {
+    "utcDate": "2026-03-21T00:00:00Z",
+    "homeTeam": "Tottenham Hotspur FC",
+    "awayTeam": "Nottingham Forest FC",
+    "matchday": 31
+  },
+  {
+    "utcDate": "2026-03-21T00:00:00Z",
+    "homeTeam": "Wolverhampton Wanderers FC",
+    "awayTeam": "Arsenal FC",
+    "matchday": 31
+  },
+  {
+    "utcDate": "2026-04-11T00:00:00Z",
+    "homeTeam": "Sunderland AFC",
+    "awayTeam": "Tottenham Hotspur FC",
+    "matchday": 32
+  },
+  {
+    "utcDate": "2026-04-11T00:00:00Z",
+    "homeTeam": "Crystal Palace FC",
+    "awayTeam": "Newcastle United FC",
+    "matchday": 32
+  },
+  {
+    "utcDate": "2026-04-11T00:00:00Z",
+    "homeTeam": "Arsenal FC",
+    "awayTeam": "AFC Bournemouth",
+    "matchday": 32
+  },
+  {
+    "utcDate": "2026-04-11T00:00:00Z",
+    "homeTeam": "Brentford FC",
+    "awayTeam": "Everton FC",
+    "matchday": 32
+  },
+  {
+    "utcDate": "2026-04-11T00:00:00Z",
+    "homeTeam": "Burnley FC",
+    "awayTeam": "Brighton & Hove Albion FC",
+    "matchday": 32
+  },
+  {
+    "utcDate": "2026-04-11T00:00:00Z",
+    "homeTeam": "Chelsea FC",
+    "awayTeam": "Manchester City FC",
+    "matchday": 32
+  },
+  {
+    "utcDate": "2026-04-11T00:00:00Z",
+    "homeTeam": "Liverpool FC",
+    "awayTeam": "Fulham FC",
+    "matchday": 32
+  },
+  {
+    "utcDate": "2026-04-11T00:00:00Z",
+    "homeTeam": "Manchester United FC",
+    "awayTeam": "Leeds United FC",
+    "matchday": 32
+  },
+  {
+    "utcDate": "2026-04-11T00:00:00Z",
+    "homeTeam": "Nottingham Forest FC",
+    "awayTeam": "Aston Villa FC",
+    "matchday": 32
+  },
+  {
+    "utcDate": "2026-04-11T00:00:00Z",
+    "homeTeam": "West Ham United FC",
+    "awayTeam": "Wolverhampton Wanderers FC",
+    "matchday": 32
+  },
+  {
+    "utcDate": "2026-04-18T00:00:00Z",
+    "homeTeam": "Newcastle United FC",
+    "awayTeam": "AFC Bournemouth",
+    "matchday": 33
+  },
+  {
+    "utcDate": "2026-04-18T00:00:00Z",
+    "homeTeam": "Nottingham Forest FC",
+    "awayTeam": "Burnley FC",
+    "matchday": 33
+  },
+  {
+    "utcDate": "2026-04-18T00:00:00Z",
+    "homeTeam": "Tottenham Hotspur FC",
+    "awayTeam": "Brighton & Hove Albion FC",
+    "matchday": 33
+  },
+  {
+    "utcDate": "2026-04-18T00:00:00Z",
+    "homeTeam": "Aston Villa FC",
+    "awayTeam": "Sunderland AFC",
+    "matchday": 33
+  },
+  {
+    "utcDate": "2026-04-18T00:00:00Z",
+    "homeTeam": "Crystal Palace FC",
+    "awayTeam": "West Ham United FC",
+    "matchday": 33
+  },
+  {
+    "utcDate": "2026-04-18T00:00:00Z",
+    "homeTeam": "Brentford FC",
+    "awayTeam": "Fulham FC",
+    "matchday": 33
+  },
+  {
+    "utcDate": "2026-04-18T00:00:00Z",
+    "homeTeam": "Chelsea FC",
+    "awayTeam": "Manchester United FC",
+    "matchday": 33
+  },
+  {
+    "utcDate": "2026-04-18T00:00:00Z",
+    "homeTeam": "Everton FC",
+    "awayTeam": "Liverpool FC",
+    "matchday": 33
+  },
+  {
+    "utcDate": "2026-04-18T00:00:00Z",
+    "homeTeam": "Leeds United FC",
+    "awayTeam": "Wolverhampton Wanderers FC",
+    "matchday": 33
+  },
+  {
+    "utcDate": "2026-04-18T00:00:00Z",
+    "homeTeam": "Manchester City FC",
+    "awayTeam": "Arsenal FC",
+    "matchday": 33
+  },
+  {
+    "utcDate": "2026-04-25T00:00:00Z",
+    "homeTeam": "AFC Bournemouth",
+    "awayTeam": "Leeds United FC",
+    "matchday": 34
+  },
+  {
+    "utcDate": "2026-04-25T00:00:00Z",
+    "homeTeam": "Sunderland AFC",
+    "awayTeam": "Nottingham Forest FC",
+    "matchday": 34
+  },
+  {
+    "utcDate": "2026-04-25T00:00:00Z",
+    "homeTeam": "Brighton & Hove Albion FC",
+    "awayTeam": "Chelsea FC",
+    "matchday": 34
+  },
+  {
+    "utcDate": "2026-04-25T00:00:00Z",
+    "homeTeam": "Arsenal FC",
+    "awayTeam": "Newcastle United FC",
+    "matchday": 34
+  },
+  {
+    "utcDate": "2026-04-25T00:00:00Z",
+    "homeTeam": "Burnley FC",
+    "awayTeam": "Manchester City FC",
+    "matchday": 34
+  },
+  {
+    "utcDate": "2026-04-25T00:00:00Z",
+    "homeTeam": "Fulham FC",
+    "awayTeam": "Aston Villa FC",
+    "matchday": 34
+  },
+  {
+    "utcDate": "2026-04-25T00:00:00Z",
+    "homeTeam": "Liverpool FC",
+    "awayTeam": "Crystal Palace FC",
+    "matchday": 34
+  },
+  {
+    "utcDate": "2026-04-25T00:00:00Z",
+    "homeTeam": "Manchester United FC",
+    "awayTeam": "Brentford FC",
+    "matchday": 34
+  },
+  {
+    "utcDate": "2026-04-25T00:00:00Z",
+    "homeTeam": "West Ham United FC",
+    "awayTeam": "Everton FC",
+    "matchday": 34
+  },
+  {
+    "utcDate": "2026-04-25T00:00:00Z",
+    "homeTeam": "Wolverhampton Wanderers FC",
+    "awayTeam": "Tottenham Hotspur FC",
+    "matchday": 34
+  },
+  {
+    "utcDate": "2026-05-02T00:00:00Z",
+    "homeTeam": "AFC Bournemouth",
+    "awayTeam": "Crystal Palace FC",
+    "matchday": 35
+  },
+  {
+    "utcDate": "2026-05-02T00:00:00Z",
+    "homeTeam": "Aston Villa FC",
+    "awayTeam": "Tottenham Hotspur FC",
+    "matchday": 35
+  },
+  {
+    "utcDate": "2026-05-02T00:00:00Z",
+    "homeTeam": "Arsenal FC",
+    "awayTeam": "Fulham FC",
+    "matchday": 35
+  },
+  {
+    "utcDate": "2026-05-02T00:00:00Z",
+    "homeTeam": "Brentford FC",
+    "awayTeam": "West Ham United FC",
+    "matchday": 35
+  },
+  {
+    "utcDate": "2026-05-02T00:00:00Z",
+    "homeTeam": "Chelsea FC",
+    "awayTeam": "Nottingham Forest FC",
+    "matchday": 35
+  },
+  {
+    "utcDate": "2026-05-02T00:00:00Z",
+    "homeTeam": "Everton FC",
+    "awayTeam": "Manchester City FC",
+    "matchday": 35
+  },
+  {
+    "utcDate": "2026-05-02T00:00:00Z",
+    "homeTeam": "Leeds United FC",
+    "awayTeam": "Burnley FC",
+    "matchday": 35
+  },
+  {
+    "utcDate": "2026-05-02T00:00:00Z",
+    "homeTeam": "Manchester United FC",
+    "awayTeam": "Liverpool FC",
+    "matchday": 35
+  },
+  {
+    "utcDate": "2026-05-02T00:00:00Z",
+    "homeTeam": "Newcastle United FC",
+    "awayTeam": "Brighton & Hove Albion FC",
+    "matchday": 35
+  },
+  {
+    "utcDate": "2026-05-02T00:00:00Z",
+    "homeTeam": "Wolverhampton Wanderers FC",
+    "awayTeam": "Sunderland AFC",
+    "matchday": 35
+  },
+  {
+    "utcDate": "2026-05-09T00:00:00Z",
+    "homeTeam": "Sunderland AFC",
+    "awayTeam": "Manchester United FC",
+    "matchday": 36
+  },
+  {
+    "utcDate": "2026-05-09T00:00:00Z",
+    "homeTeam": "Brighton & Hove Albion FC",
+    "awayTeam": "Wolverhampton Wanderers FC",
+    "matchday": 36
+  },
+  {
+    "utcDate": "2026-05-09T00:00:00Z",
+    "homeTeam": "Crystal Palace FC",
+    "awayTeam": "Everton FC",
+    "matchday": 36
+  },
+  {
+    "utcDate": "2026-05-09T00:00:00Z",
+    "homeTeam": "Burnley FC",
+    "awayTeam": "Aston Villa FC",
+    "matchday": 36
+  },
+  {
+    "utcDate": "2026-05-09T00:00:00Z",
+    "homeTeam": "Fulham FC",
+    "awayTeam": "AFC Bournemouth",
+    "matchday": 36
+  },
+  {
+    "utcDate": "2026-05-09T00:00:00Z",
+    "homeTeam": "Liverpool FC",
+    "awayTeam": "Chelsea FC",
+    "matchday": 36
+  },
+  {
+    "utcDate": "2026-05-09T00:00:00Z",
+    "homeTeam": "Manchester City FC",
+    "awayTeam": "Brentford FC",
+    "matchday": 36
+  },
+  {
+    "utcDate": "2026-05-09T00:00:00Z",
+    "homeTeam": "Nottingham Forest FC",
+    "awayTeam": "Newcastle United FC",
+    "matchday": 36
+  },
+  {
+    "utcDate": "2026-05-09T00:00:00Z",
+    "homeTeam": "Tottenham Hotspur FC",
+    "awayTeam": "Leeds United FC",
+    "matchday": 36
+  },
+  {
+    "utcDate": "2026-05-09T00:00:00Z",
+    "homeTeam": "West Ham United FC",
+    "awayTeam": "Arsenal FC",
+    "matchday": 36
+  },
+  {
+    "utcDate": "2026-05-17T00:00:00Z",
+    "homeTeam": "AFC Bournemouth",
+    "awayTeam": "Manchester City FC",
+    "matchday": 37
+  },
+  {
+    "utcDate": "2026-05-17T00:00:00Z",
+    "homeTeam": "Aston Villa FC",
+    "awayTeam": "Liverpool FC",
+    "matchday": 37
+  },
+  {
+    "utcDate": "2026-05-17T00:00:00Z",
+    "homeTeam": "Arsenal FC",
+    "awayTeam": "Burnley FC",
+    "matchday": 37
+  },
+  {
+    "utcDate": "2026-05-17T00:00:00Z",
+    "homeTeam": "Brentford FC",
+    "awayTeam": "Crystal Palace FC",
+    "matchday": 37
+  },
+  {
+    "utcDate": "2026-05-17T00:00:00Z",
+    "homeTeam": "Chelsea FC",
+    "awayTeam": "Tottenham Hotspur FC",
+    "matchday": 37
+  },
+  {
+    "utcDate": "2026-05-17T00:00:00Z",
+    "homeTeam": "Everton FC",
+    "awayTeam": "Sunderland AFC",
+    "matchday": 37
+  },
+  {
+    "utcDate": "2026-05-17T00:00:00Z",
+    "homeTeam": "Leeds United FC",
+    "awayTeam": "Brighton & Hove Albion FC",
+    "matchday": 37
+  },
+  {
+    "utcDate": "2026-05-17T00:00:00Z",
+    "homeTeam": "Manchester United FC",
+    "awayTeam": "Nottingham Forest FC",
+    "matchday": 37
+  },
+  {
+    "utcDate": "2026-05-17T00:00:00Z",
+    "homeTeam": "Newcastle United FC",
+    "awayTeam": "West Ham United FC",
+    "matchday": 37
+  },
+  {
+    "utcDate": "2026-05-17T00:00:00Z",
+    "homeTeam": "Wolverhampton Wanderers FC",
+    "awayTeam": "Fulham FC",
+    "matchday": 37
+  },
+  {
+    "utcDate": "2026-05-24T00:00:00Z",
+    "homeTeam": "Sunderland AFC",
+    "awayTeam": "Chelsea FC",
+    "matchday": 38
+  },
+  {
+    "utcDate": "2026-05-24T00:00:00Z",
+    "homeTeam": "Brighton & Hove Albion FC",
+    "awayTeam": "Manchester United FC",
+    "matchday": 38
+  },
+  {
+    "utcDate": "2026-05-24T00:00:00Z",
+    "homeTeam": "Crystal Palace FC",
+    "awayTeam": "Arsenal FC",
+    "matchday": 38
+  },
+  {
+    "utcDate": "2026-05-24T00:00:00Z",
+    "homeTeam": "Burnley FC",
+    "awayTeam": "Wolverhampton Wanderers FC",
+    "matchday": 38
+  },
+  {
+    "utcDate": "2026-05-24T00:00:00Z",
+    "homeTeam": "Fulham FC",
+    "awayTeam": "Newcastle United FC",
+    "matchday": 38
+  },
+  {
+    "utcDate": "2026-05-24T00:00:00Z",
+    "homeTeam": "Liverpool FC",
+    "awayTeam": "Brentford FC",
+    "matchday": 38
+  },
+  {
+    "utcDate": "2026-05-24T00:00:00Z",
+    "homeTeam": "Manchester City FC",
+    "awayTeam": "Aston Villa FC",
+    "matchday": 38
+  },
+  {
+    "utcDate": "2026-05-24T00:00:00Z",
+    "homeTeam": "Nottingham Forest FC",
+    "awayTeam": "AFC Bournemouth",
+    "matchday": 38
+  },
+  {
+    "utcDate": "2026-05-24T00:00:00Z",
+    "homeTeam": "Tottenham Hotspur FC",
+    "awayTeam": "Everton FC",
+    "matchday": 38
+  },
+  {
+    "utcDate": "2026-05-24T00:00:00Z",
+    "homeTeam": "West Ham United FC",
+    "awayTeam": "Leeds United FC",
+    "matchday": 38
+  }
+]
