@@ -1,5 +1,23 @@
 [
   {
+    "utcDate": "2025-06-15T19:00:00Z",
+    "homeTeam": "Liverpool FC",
+    "awayTeam": "Everton FC",
+    "matchday": 1
+  },
+  {
+    "utcDate": "2025-06-30T19:00:00Z",
+    "homeTeam": "Chelsea FC",
+    "awayTeam": "Liverpool FC",
+    "matchday": 1
+  },
+  {
+    "utcDate": "2025-07-01T19:00:00Z",
+    "homeTeam": "Manchester United FC",
+    "awayTeam": "Liverpool FC",
+    "matchday": 1
+  },
+  {
     "utcDate": "2025-08-15T19:00:00Z",
     "homeTeam": "Liverpool FC",
     "awayTeam": "AFC Bournemouth",

@@ -122,10 +122,18 @@ const DashboardPage = () => {
           return;
         }
 
-        // Filter matches using enhanced team matching
+        // Filter matches using enhanced team matching, and exclude past matches (1+ days ago)
         console.log('🔍 Starting match filtering...');
+        const now = new Date();
         const userMatches: Match[] = scheduleData
           .filter((match: any) => {
+            // Exclude matches that are 1 or more days in the past
+            const matchDate = new Date(match.utcDate);
+            const diffDays = (matchDate.getTime() - now.getTime()) / (1000 * 60 * 60 * 24);
+            if (diffDays < -1) {
+              console.log(`⏳ Skipping past match: ${match.utcDate} (diffDays=${diffDays})`);
+              return false;
+            }
             console.log('🔍 Checking match:', match);
             const homeMatch = teamsMatch(match.homeTeam, userData.favoriteTeam);
             const awayMatch = teamsMatch(match.awayTeam, userData.favoriteTeam);
@@ -318,23 +326,6 @@ const DashboardPage = () => {
     );
   };
 
-  {/* Gradient SVG Definition */}
-  const GradientSVG = () => {
-    const idCSS = "progress-gradient";
-    return (
-      <svg style={{ height: 0 }}>
-        <defs>
-          <linearGradient id={idCSS} x1="200%" y1="70%" x2="0%" y2="0%">
-            <stop offset="0%" stopColor="#ef4444" />
-            <stop offset="50%" stopColor="#ef4444" />
-            <stop offset="75%" stopColor="#ffc869" />
-            <stop offset="100%" stopColor="#22c55e" />
-          </linearGradient>
-        </defs>
-      </svg>
-    );
-  };
-
   // Debug render info
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900">
@@ -380,36 +371,37 @@ const DashboardPage = () => {
                 <p className="text-gray-300">Give your team that extra boost!</p>
               </div>
 
-{/* Circular Progress */}
-<div className="flex justify-center mb-8">
-  <div className="relative w-32 h-32">
-    <CircularProgressbar
-      value={overallProgress}
-      text={`${Math.round(overallProgress)}%`}
-      strokeWidth={8}
-      styles={{
-        path: {
-          stroke: overallProgress <= 40 
-            ? `rgb(${255}, ${Math.round(overallProgress * 165 / 40)}, 0)` // Red to Orange transition (0-40%)
-            : overallProgress <= 75 
-            ? `rgb(255, 165, 0)` // Stay Orange (40-75%)
-            : `rgb(${255 - Math.round((overallProgress - 75) * 221 / 25)}, ${165 + Math.round((overallProgress - 75) * 63 / 25)}, ${Math.round((overallProgress - 75) * 34 / 25)})`, // Orange to Green (75-100%)
-          strokeLinecap: 'round',
-          transition: 'stroke-dashoffset 0.5s ease 0s, stroke 0.3s ease',
-        },
-        trail: {
-          stroke: '#374151', // gray-700
-          strokeLinecap: 'round',
-        },
-        text: {
-          fill: '#ffffff',
-          fontSize: '16px',
-          fontWeight: 'bold',
-        },
-      }}
-    />
-  </div>
-</div>
+            {/* Circular Progress */}
+            <div className="flex justify-center mb-8">
+              <div className="relative w-32 h-32">
+                <CircularProgressbar
+                  value={overallProgress}
+                  text={`${Math.round(overallProgress)}%`}
+                  strokeWidth={8}
+                  styles={{
+                    path: {
+                      stroke: overallProgress <= 40 
+                        ? `rgb(${255}, ${Math.round(overallProgress * 165 / 40)}, 0)` // Red to Orange transition (0-40%)
+                        : overallProgress <= 70 
+                        ? `rgb(255, 165, 0)` // Stay Orange (40-75%)
+                        : `rgb(${255 - Math.round((overallProgress - 75) * 221 / 25)}, ${165 + Math.round((overallProgress - 75) * 63 / 25)}, ${Math.round((overallProgress - 75) * 34 / 25)})`, // Orange to Green (75-100%)
+                      strokeLinecap: 'round',
+                      transition: 'stroke-dashoffset 0.5s ease 0s, stroke 0.3s ease',
+                    },
+                    trail: {
+                      stroke: '#374151', // gray-700
+                      strokeLinecap: 'round',
+                    },
+                    text: {
+                      fill: '#ffffff',
+                      fontSize: '16px',
+                      fontWeight: 'bold',
+                    },
+                  }}
+                />
+              </div>
+            </div>
+
               {/* Stats */}
               <div className="space-y-4">
                 <div className="flex items-center justify-between p-3 bg-white/5 rounded-lg">
@@ -439,7 +431,7 @@ const DashboardPage = () => {
                       {selectedMatch ? selectedMatch.matchDisplayName : 'Select Match'}
                     </h3>
                     {selectedMatch && (
-                      <p className="text-gray-300 text-sm">{selectedMatch.date} • {selectedMatch.competition}</p>
+                      <p className="text-gray-300 text-sm">{selectedMatch.date} • {selectedMatch.time}</p>
                     )}
                   </div>
                   <ChevronDown className={`text-white transition-transform ${isDropdownOpen ? 'rotate-180' : ''}`} size={20} />
@@ -456,7 +448,7 @@ const DashboardPage = () => {
                         }`}
                       >
                         <h4 className="text-white font-semibold">{match.matchDisplayName}</h4>
-                        <p className="text-gray-300 text-sm">{match.date} • {match.competition}</p>
+                        <p className="text-gray-300 text-sm">{match.date} • {match.time}</p>
                       </button>
                     ))}
                   </div>
@@ -464,7 +456,7 @@ const DashboardPage = () => {
               </div>
             </div>
 
-            {/* Training Drills Header */}
+            {/* Workout Header */}
             <div className="flex items-center justify-between mb-6">
               <h2 className="text-3xl font-bold text-white">Fitness Goals</h2>
               <button
@@ -472,11 +464,11 @@ const DashboardPage = () => {
                 className="flex items-center space-x-2 px-4 py-2 bg-gradient-to-r from-cyan-500 to-purple-600 text-white rounded-lg hover:scale-105 transition-transform duration-200"
               >
                 <Plus size={20} />
-                <span>Add Drill</span>
+                <span>Add Workout</span>
               </button>
             </div>
 
-            {/* Training Drills Grid */}
+            {/* Training Workout Grid */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               {matchWorkouts.map((workout) => {
                 const progress = (workout.completedReps / workout.targetReps) * 100;
@@ -577,12 +569,12 @@ const DashboardPage = () => {
 
             {matchWorkouts.length === 0 && (
               <div className="text-center py-12">
-                <p className="text-gray-400 text-lg mb-4">No training drills for this match yet</p>
+                <p className="text-gray-400 text-lg mb-4">No fitness goals for this match yet</p>
                 <button
                   onClick={() => setShowWorkoutModal(true)}
                   className="px-6 py-3 bg-gradient-to-r from-cyan-500 to-purple-600 text-white rounded-lg hover:scale-105 transition-transform duration-200"
                 >
-                  Create Your First Drill
+                  Create Your First Workout
                 </button>
               </div>
             )}
@@ -679,11 +671,14 @@ const DashboardPage = () => {
                 Cancel
               </button>
               <button
-                onClick={handleAddWorkout}
+                onClick={() => {
+                  handleAddWorkout();
+                  setShowWorkoutModal(false);
+                }}
                 disabled={!newWorkout.type.trim()}
                 className="flex-1 px-4 py-2 bg-gradient-to-r from-cyan-500 to-purple-600 text-white rounded-lg hover:scale-105 transition-transform duration-200 disabled:opacity-50 disabled:hover:scale-100"
               >
-                Add Drill
+                Add Workout
               </button>
             </div>
           </div>

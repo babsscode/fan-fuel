@@ -84,8 +84,8 @@ const LandingPage: React.FC = () => {
             
             <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 transform hosver:scale-105 transition-all duration-300">
               <div className="text-4xl mb-4">⏰</div>
-              <h3 className="text-xl font-bold text-white mb-2">Urgency</h3>
-              <p className="text-gray-300">Meet all your workout goals before your team's next match to increase luck.</p>
+              <h3 className="text-xl font-bold text-white mb-2">Countdown</h3>
+              <p className="text-gray-300">A countdown to your team's next match builds urgency to complete your goals.</p>
             </div>
             
             <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 transform hover:scale-105 transition-all duration-300">

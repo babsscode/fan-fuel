@@ -7,7 +7,8 @@ import {
   addDoc,
   updateDoc,
   deleteDoc,
-  getDocs
+  getDocs,
+  setDoc
 } from 'firebase/firestore';
 
 // Get user preferences
@@ -18,12 +19,31 @@ export const getUserPreferences = async (userId: string) => {
   return snapshot.data();
 };
 
-// ✅ Add a workout under: users/{userId}/matchProgress/{matchId}/workouts
+// Helper to ensure matchProgress doc exists
+const ensureMatchProgressDocExists = async (userId: string, matchId: string) => {
+  const matchRef = doc(db, 'users', userId, 'matchProgress', matchId);
+  const snapshot = await getDoc(matchRef);
+
+  if (!snapshot.exists()) {
+    await setDoc(matchRef, {
+      percent: 0,
+      createdAt: new Date().toISOString()
+    });
+  }
+};
+
+// Updated addWorkout with fix
 export const addWorkout = async (userId: string, matchId: string, workout: any) => {
+  await ensureMatchProgressDocExists(userId, matchId); // 🛠 Fix here
+
   const ref = collection(db, 'users', userId, 'matchProgress', matchId, 'workouts');
-  const docRef = await addDoc(ref, workout);
+  const docRef = await addDoc(ref, {
+    ...workout,
+    createdAt: new Date().toISOString()
+  });
   return { id: docRef.id };
 };
+
 
 // ✅ Update workout
 export const updateWorkout = async (userId: string, matchId: string, workoutId: string, updates: any) => {

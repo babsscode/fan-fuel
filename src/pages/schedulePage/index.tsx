@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Calendar, Clock, MapPin, Trophy, Target, TrendingUp, ChevronRight, Star, Home, Plane } from 'lucide-react';
+import { Calendar, Clock, MapPin, Trophy, Target, TrendingUp, ChevronRight, Star, Home, Plane, Check } from 'lucide-react';
 import { getUserPreferences, getMatchProgress, updateMatchProgress } from '../../firebaseOps';
 import { useAuth } from '../../AuthContext';
 
@@ -159,11 +159,11 @@ const SchedulePage = () => {
       minute: '2-digit' 
     });
   };
-
+  
   const getProgressColor = (progress: number) => {
-    if (progress >= 80) return 'from-green-500 to-emerald-500';
-    if (progress >= 60) return 'from-yellow-500 to-orange-500';
-    if (progress >= 40) return 'from-blue-500 to-cyan-500';
+    if (progress >= 80) return 'from-green-400 to-emerald-500';
+    if (progress >= 70) return 'from-yellow-500 to-orange-500';
+    if (progress >= 40) return 'from-pink-500 to-red-400';
     return 'from-red-500 to-pink-500';
   };
 
@@ -212,54 +212,18 @@ const SchedulePage = () => {
       </div>
     );
   }
-  
+  console.log(filteredMatches)
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 p-8">
       <div className="max-w-6xl mx-auto">
-        {/* Header Section */}
-        <div className="mb-8">
-          <div className="flex items-center justify-between mb-6">
-            <div>
-              <h1 className="text-4xl font-bold text-white mb-2">Match Schedule</h1>
-              <p className="text-gray-300">Track your training progress for upcoming matches</p>
-            </div>
-            
-            {/* Stats Cards */}
-            <div className="flex space-x-4">
-              <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 text-center">
-                <div className="text-2xl font-bold text-cyan-400">{upcomingMatches.length}</div>
-                <div className="text-xs text-gray-400">UPCOMING</div>
-              </div>
-              <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 text-center">
-                <div className="text-2xl font-bold text-green-400">
-                  {Math.round(upcomingMatches.reduce((acc, match) => acc + match.progress, 0) / upcomingMatches.length || 0)}%
-                </div>
-                <div className="text-xs text-gray-400">AVG PROGRESS</div>
+          {/* Header Section */}
+          <div className="mb-8 text-center">
+            <div className="flex flex-col items-center justify-center mb-6">
+              <div>
+                <h1 className="text-4xl font-bold text-white mb-2">Match Schedule</h1>
+                <p className="text-gray-300">Keep track of the luck meters for all of your team's games!</p>
               </div>
             </div>
-          </div>
-
-          {/* Filter Buttons */}
-          <div className="flex space-x-2">
-            {[
-              { key: 'all', label: 'All Matches', icon: Trophy },
-              { key: 'home', label: 'Home', icon: Home },
-              { key: 'away', label: 'Away', icon: Plane }
-            ].map(filter => (
-              <button
-                key={filter.key}
-                onClick={() => setSelectedFilter(filter.key)}
-                className={`flex items-center space-x-2 px-4 py-2 rounded-lg transition-all ${
-                  selectedFilter === filter.key
-                    ? 'bg-gradient-to-r from-cyan-500 to-purple-600 text-white'
-                    : 'bg-white/10 text-gray-300 hover:bg-white/20'
-                }`}
-              >
-                <filter.icon size={16} />
-                <span>{filter.label}</span>
-              </button>
-            ))}
-          </div>
         </div>
 
         {/* Matches Grid */}
@@ -278,40 +242,32 @@ const SchedulePage = () => {
                   <TrendingUp className="mr-2 text-cyan-400" size={24} />
                   Upcoming Matches
                 </h2>
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6">
                   {upcomingMatches.map((match) => (
                     <div
                       key={match.id}
                       className={`bg-gradient-to-br ${getUrgencyColor(match.daysLeft)} backdrop-blur-sm rounded-xl p-6 border hover:scale-105 transition-all duration-300 cursor-pointer group`}
                     >
-                      {/* Match Header */}
+
+
+                      {/* Card Title */}
+                      <div className="mb-4">
                       <div className="flex items-center justify-between mb-4">
                         <div className="flex items-center space-x-2">
-                          {match.isHome ? (
-                            <Home className="text-green-400" size={20} />
-                          ) : (
-                            <Plane className="text-blue-400" size={20} />
-                          )}
-                          <span className="text-sm font-medium text-gray-300">
-                            Matchday {match.matchday}
-                          </span>
+                          <h3 className="text-xl font-bold text-white mb-1 transition-colors">
+                           {match.homeTeam} vs  {match.awayTeam}
+                          </h3>
                         </div>
-                        <div className={`px-2 py-1 rounded-full text-xs font-bold ${
+                        <div className={`px-2 py-1 rounded-lg text-md font-bold ${
                           match.daysLeft <= 3 
                             ? 'bg-red-500/20 text-red-300' 
                             : match.daysLeft <= 7 
                             ? 'bg-yellow-500/20 text-yellow-300'
                             : 'bg-blue-500/20 text-blue-300'
                         }`}>
-                          {match.daysLeft === 0 ? 'TODAY' : `${match.daysLeft}d`}
+                          {match.daysLeft === 0 ? 'TODAY' : `${match.daysLeft} days`}
                         </div>
                       </div>
-
-                      {/* Opponent */}
-                      <div className="mb-4">
-                        <h3 className="text-xl font-bold text-white mb-1 group-hover:text-cyan-400 transition-colors">
-                          {match.isHome ? 'vs' : '@'} {match.opponent}
-                        </h3>
                         <div className="flex items-center space-x-4 text-sm text-gray-400">
                           <div className="flex items-center space-x-1">
                             <Calendar size={14} />
@@ -327,7 +283,7 @@ const SchedulePage = () => {
                       {/* Progress Bar */}
                       <div className="mb-4">
                         <div className="flex justify-between text-sm mb-2">
-                          <span className="text-gray-300">Training Progress</span>
+                          <span className="text-gray-300">Luck Meter 🍀</span>
                           <span className="text-white font-bold">{Math.round(match.progress)}%</span>
                         </div>
                         <div className="w-full bg-gray-700/50 rounded-full h-3">
@@ -337,13 +293,6 @@ const SchedulePage = () => {
                           ></div>
                         </div>
                       </div>
-
-                      {/* Action Button */}
-                      <button className="w-full bg-white/10 hover:bg-white/20 text-white py-2 px-4 rounded-lg transition-all duration-200 flex items-center justify-center space-x-2 group-hover:bg-gradient-to-r group-hover:from-cyan-500/20 group-hover:to-purple-500/20">
-                        <Target size={16} />
-                        <span>View Training</span>
-                        <ChevronRight size={16} className="group-hover:translate-x-1 transition-transform" />
-                      </button>
                     </div>
                   ))}
                 </div>
@@ -354,44 +303,41 @@ const SchedulePage = () => {
             {completedMatches.length > 0 && (
               <div>
                 <h2 className="text-2xl font-bold text-white mb-4 flex items-center">
-                  <Star className="mr-2 text-yellow-400" size={24} />
-                  Recent Matches
+                  <Check className="mr-2 text-green-400" size={24} />
+                  Completed Matches
                 </h2>
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6">
                   {completedMatches.map((match) => (
                     <div
                       key={match.id}
                       className="bg-white/5 backdrop-blur-sm rounded-xl p-6 border border-white/10 opacity-75 hover:opacity-100 transition-all duration-300"
                     >
-                      <div className="flex items-center justify-between mb-4">
-                        <div className="flex items-center space-x-2">
-                          {match.isHome ? (
-                            <Home className="text-green-400" size={20} />
-                          ) : (
-                            <Plane className="text-blue-400" size={20} />
-                          )}
-                          <span className="text-sm font-medium text-gray-400">
-                            Matchday {match.matchday}
-                          </span>
-                        </div>
-                        <div className="px-2 py-1 bg-gray-500/20 text-gray-400 rounded-full text-xs font-bold">
-                          COMPLETED
-                        </div>
-                      </div>
-
                       <div className="mb-4">
-                        <h3 className="text-xl font-bold text-gray-300 mb-1">
-                          {match.isHome ? 'vs' : '@'} {match.opponent}
-                        </h3>
-                        <div className="flex items-center space-x-1 text-sm text-gray-500">
-                          <Calendar size={14} />
-                          <span>{formatDate(match.utcDate)}</span>
+                        <div className="flex items-center justify-between space-x-2 mb-4">
+                          <h3 className="text-xl font-bold text-white mb-1 transition-colors">
+                           {match.homeTeam} vs  {match.awayTeam}
+                          </h3>
+                          <div className="px-2 py-1 bg-gray-500/20 text-gray-400 rounded-full text-sm font-bold">
+                          COMPLETED
+                          </div>
                         </div>
+                        
+                        <div className="flex items-center space-x-4 text-sm text-gray-400">
+                          <div className="flex items-center space-x-1">
+                            <Calendar size={14} />
+                            <span>{formatDate(match.utcDate)}</span>
+                          </div>
+                        </div>
+                        <div className="flex items-center space-x-1 text-sm text-gray-400 mt-1">
+                          <Clock size={14} />
+                          <span>{formatTime(match.utcDate)}</span>
+                        </div>
+                        
                       </div>
 
                       <div className="mb-4">
                         <div className="flex justify-between text-sm mb-2">
-                          <span className="text-gray-400">Final Progress</span>
+                          <span className="text-gray-400">Luck Meter 🍀</span>
                           <span className="text-gray-300 font-bold">{Math.round(match.progress)}%</span>
                         </div>
                         <div className="w-full bg-gray-700/30 rounded-full h-2">
