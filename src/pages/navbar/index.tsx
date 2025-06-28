@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link as RouterLink} from "react-router-dom";
-import { Plus, User, Home, TrendingUp, Calendar, Settings, Target, Clock, CheckCircle } from 'lucide-react';
+import { Home, Calendar, Settings } from 'lucide-react';
 
 
 const Navbar = () => {

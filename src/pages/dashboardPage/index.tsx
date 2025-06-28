@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from 'react';
-import { Plus, User, Home, TrendingUp, Calendar, Settings, Target, Clock, CheckCircle, ChevronDown, Edit2, Trash2, X, Save } from 'lucide-react';
+import { useState, useEffect } from 'react';
+import { Plus, Target, Clock, CheckCircle, ChevronDown, Edit2, Trash2, X } from 'lucide-react';
 import { useAuth } from '../../AuthContext';
 import { CircularProgressbar } from 'react-circular-progressbar';
 import 'react-circular-progressbar/dist/styles.css';
@@ -51,7 +51,7 @@ const DashboardPage = () => {
   const [showWorkoutModal, setShowWorkoutModal] = useState(false);
   const [editingWorkout, setEditingWorkout] = useState<string | null>(null);
   const [countdown, setCountdown] = useState({ days: 0, hours: 0, minutes: 0, seconds: 0 });
-  const [loading, setLoading] = useState(true);
+  const [, setLoading] = useState(true);
 
   const [newWorkout, setNewWorkout] = useState<Omit<Workout, 'id' | 'completedReps' | 'matchId' | 'createdAt'>>({
     type: '',

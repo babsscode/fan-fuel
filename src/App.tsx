@@ -1,5 +1,4 @@
 import './index.css'
-import Navbar from './pages/navbar'
 import { AuthProvider } from './AuthContext';
 import MainRoutes from './MainRoutes'
 

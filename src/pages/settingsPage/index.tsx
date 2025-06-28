@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { User, LogOut, Save, ChevronDown } from 'lucide-react';
+import { User, LogOut, Save } from 'lucide-react';
 import { useAuth } from '../../AuthContext';
 import { useNavigate } from 'react-router-dom';
 import { doc, getFirestore, getDoc, setDoc } from 'firebase/firestore';

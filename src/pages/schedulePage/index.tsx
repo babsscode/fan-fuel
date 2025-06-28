@@ -1,6 +1,6 @@
-import React, { useEffect, useState } from 'react';
-import { Calendar, Clock, MapPin, Trophy, Target, TrendingUp, ChevronRight, Star, Home, Plane, Check } from 'lucide-react';
-import { getUserPreferences, getMatchProgress, updateMatchProgress } from '../../firebaseOps';
+import { useEffect, useState } from 'react';
+import { Calendar, Clock, TrendingUp, Check } from 'lucide-react';
+import { getUserPreferences, getMatchProgress } from '../../firebaseOps';
 import { useAuth } from '../../AuthContext';
 
 interface Match {
@@ -20,7 +20,7 @@ const SchedulePage = () => {
   const [matches, setMatches] = useState<Match[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
-  const [selectedFilter, setSelectedFilter] = useState('all'); // 'all', 'home', 'away'
+  const [selectedFilter] = useState('all'); // 'all', 'home', 'away'
 
   // Enhanced team matching function
   const normalizeTeamName = (teamName: string) => {

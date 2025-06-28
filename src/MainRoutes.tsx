@@ -1,14 +1,11 @@
-import React from 'react'
 import { Routes, Route, Navigate } from 'react-router-dom'
 import LandingPage from './pages/landingPage'
 import SchedulePage from './pages/schedulePage'
 import LoginPage from './pages/loginPage'
-import { AuthProvider } from './AuthContext';
 import { ProtectedRoute } from './ProtectedRoute';
 import Navbar from './pages/navbar'
 import DashboardPage from './pages/dashboardPage'
 import SettingsPage from './pages/settingsPage'
-import PreferencesPage from './pages/preferencesPage'
 
 const MainRoutes=()=> {
  return (
