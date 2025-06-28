@@ -1,6 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import { Plus, User, Home, TrendingUp, Calendar, Settings, Target, Clock, CheckCircle, ChevronDown, Edit2, Trash2, X, Save } from 'lucide-react';
 import { useAuth } from '../../AuthContext';
+import { CircularProgressbar } from 'react-circular-progressbar';
+import 'react-circular-progressbar/dist/styles.css';
+
 import {
   getUserPreferences,
   addWorkout,
@@ -315,6 +318,23 @@ const DashboardPage = () => {
     );
   };
 
+  {/* Gradient SVG Definition */}
+  const GradientSVG = () => {
+    const idCSS = "progress-gradient";
+    return (
+      <svg style={{ height: 0 }}>
+        <defs>
+          <linearGradient id={idCSS} x1="200%" y1="70%" x2="0%" y2="0%">
+            <stop offset="0%" stopColor="#ef4444" />
+            <stop offset="50%" stopColor="#ef4444" />
+            <stop offset="75%" stopColor="#ffc869" />
+            <stop offset="100%" stopColor="#22c55e" />
+          </linearGradient>
+        </defs>
+      </svg>
+    );
+  };
+
   // Debug render info
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900">
@@ -357,33 +377,39 @@ const DashboardPage = () => {
             <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6">
               <div className="text-center mb-8">
                 <h2 className="text-2xl font-bold text-white mb-2">Luck Meter 🍀</h2>
-                <p className="text-gray-300">Training for your next match!</p>
-              </div>
-              
-              {/* Circular Progress */}
-              <div className="flex justify-center mb-8">
-                <div className="relative w-32 h-32">
-                  <svg className="w-32 h-32 transform -rotate-90" viewBox="0 0 100 100">
-                    <circle cx="50" cy="50" r="40" stroke="currentColor" strokeWidth="8" fill="transparent" className="text-gray-700" />
-                    <circle
-                      cx="50" cy="50" r="40" stroke="url(#gradient)" strokeWidth="8" fill="transparent"
-                      strokeDasharray={`${2 * Math.PI * 40}`}
-                      strokeDashoffset={`${2 * Math.PI * 40 * (1 - overallProgress / 100)}`}
-                      className="transition-all duration-500"
-                    />
-                    <defs>
-                      <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="0%">
-                        <stop offset="0%" stopColor="#06b6d4" />
-                        <stop offset="100%" stopColor="#8b5cf6" />
-                      </linearGradient>
-                    </defs>
-                  </svg>
-                  <div className="absolute inset-0 flex items-center justify-center">
-                    <span className="text-2xl font-bold text-white">{Math.round(overallProgress)}%</span>
-                  </div>
-                </div>
+                <p className="text-gray-300">Give your team that extra boost!</p>
               </div>
 
+{/* Circular Progress */}
+<div className="flex justify-center mb-8">
+  <div className="relative w-32 h-32">
+    <CircularProgressbar
+      value={overallProgress}
+      text={`${Math.round(overallProgress)}%`}
+      strokeWidth={8}
+      styles={{
+        path: {
+          stroke: overallProgress <= 40 
+            ? `rgb(${255}, ${Math.round(overallProgress * 165 / 40)}, 0)` // Red to Orange transition (0-40%)
+            : overallProgress <= 75 
+            ? `rgb(255, 165, 0)` // Stay Orange (40-75%)
+            : `rgb(${255 - Math.round((overallProgress - 75) * 221 / 25)}, ${165 + Math.round((overallProgress - 75) * 63 / 25)}, ${Math.round((overallProgress - 75) * 34 / 25)})`, // Orange to Green (75-100%)
+          strokeLinecap: 'round',
+          transition: 'stroke-dashoffset 0.5s ease 0s, stroke 0.3s ease',
+        },
+        trail: {
+          stroke: '#374151', // gray-700
+          strokeLinecap: 'round',
+        },
+        text: {
+          fill: '#ffffff',
+          fontSize: '16px',
+          fontWeight: 'bold',
+        },
+      }}
+    />
+  </div>
+</div>
               {/* Stats */}
               <div className="space-y-4">
                 <div className="flex items-center justify-between p-3 bg-white/5 rounded-lg">
