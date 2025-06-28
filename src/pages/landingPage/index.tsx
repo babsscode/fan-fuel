@@ -49,20 +49,20 @@ const LandingPage: React.FC = () => {
       <div className="relative z-10 flex flex-col items-center justify-center min-h-screen px-4 text-center">
         <div className="max-w-4xl mx-auto">
           {/* App Name with Glow Effect */}
-          <h1 className="text-6xl md:text-8xl font-black mb-6 bg-gradient-to-r from-cyan-400 via-purple-400 to-pink-400 bg-clip-text text-transparent animate-pulse">
-            FITZONE
+          <h1 className="text-6xl md:text-8xl font-black mb-6 md:mt-0 mt-6 bg-gradient-to-r from-cyan-400 via-purple-400 to-pink-400 bg-clip-text text-transparent animate-pulse">
+            FAN FUEL
           </h1>
           
           {/* Slogan */}
           <p className="text-2xl md:text-3xl font-bold text-white mb-8 tracking-wider">
-            Unleash Your Athletic Potential
+            Using Sports Fan Superstition to Fuel Fitness
           </p>
           
           {/* Description */}
           <p className="text-lg md:text-xl text-gray-300 mb-12 max-w-2xl mx-auto leading-relaxed">
-            Transform your fitness journey with personalized workouts, real-time progress tracking, 
-            and a community of athletes pushing their limits. From soccer drills to strength training, 
-            we've got every sport covered.
+            Transform your fitness journey by gaining motivation from superstitions.
+            Everytime you complete a workout goal your team will gain points in the luck meter.
+            Train hard because your favorite sports team's victory is on the line!
           </p>
           
           {/* CTA Button */}
@@ -77,21 +77,21 @@ const LandingPage: React.FC = () => {
           {/* Features Preview */}
           <div className="mt-16 grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
             <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 transform hover:scale-105 transition-all duration-300">
-              <div className="text-4xl mb-4">⚽</div>
-              <h3 className="text-xl font-bold text-white mb-2">Multi-Sport Training</h3>
-              <p className="text-gray-300">Soccer, basketball, tennis, and more</p>
+              <div className="text-4xl mb-4">🍀</div>
+              <h3 className="text-xl font-bold text-white mb-2">Luck</h3>
+              <p className="text-gray-300">Complete workouts to gain points and giving your team that extra boost of luck.</p>
             </div>
             
-            <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 transform hover:scale-105 transition-all duration-300">
-              <div className="text-4xl mb-4">💪</div>
-              <h3 className="text-xl font-bold text-white mb-2">Strength & Conditioning</h3>
-              <p className="text-gray-300">Build muscle and endurance</p>
+            <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 transform hosver:scale-105 transition-all duration-300">
+              <div className="text-4xl mb-4">⏰</div>
+              <h3 className="text-xl font-bold text-white mb-2">Urgency</h3>
+              <p className="text-gray-300">Meet all your workout goals before your team's next match to increase luck.</p>
             </div>
             
             <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 transform hover:scale-105 transition-all duration-300">
               <div className="text-4xl mb-4">📊</div>
-              <h3 className="text-xl font-bold text-white mb-2">Progress Tracking</h3>
-              <p className="text-gray-300">Monitor your athletic journey</p>
+              <h3 className="text-xl font-bold text-white mb-2">Motivation</h3>
+              <p className="text-gray-300">The luck meter combined with real-life deadlines for your workout goals.</p>
             </div>
           </div>
         </div>

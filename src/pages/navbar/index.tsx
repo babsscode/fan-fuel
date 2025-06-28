@@ -16,9 +16,9 @@ return (
     <div className="max-w-7xl mx-auto px-4">
       <div className="flex items-center justify-between h-16">
         <div className="flex items-center space-x-2">
-          <div className="text-2xl font-black bg-gradient-to-r from-cyan-400 to-purple-400 bg-clip-text text-transparent">
-            FITZONE
-          </div>
+          <RouterLink to='/' className="text-2xl font-black bg-gradient-to-r from-cyan-400 to-purple-400 bg-clip-text text-transparent">
+            FAN FUEL
+          </RouterLink>
         </div>
 
         <div className="flex space-x-1">
