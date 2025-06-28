@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link as RouterLink} from "react-router-dom";
 
 const LandingPage: React.FC = () => {
   return (
@@ -65,11 +66,13 @@ const LandingPage: React.FC = () => {
           </p>
           
           {/* CTA Button */}
-          <button className="group relative px-12 py-4 bg-gradient-to-r from-cyan-500 to-purple-600 text-white font-bold text-xl rounded-full transform transition-all duration-300 hover:scale-110 hover:shadow-2xl hover:shadow-cyan-500/25">
+          <RouterLink 
+          to='/login'
+          className="group relative px-12 py-4 bg-gradient-to-r from-cyan-500 to-purple-600 text-white font-bold text-xl rounded-full transform transition-all duration-300 hover:scale-110 hover:shadow-2xl hover:shadow-cyan-500/25">
             <span className="relative z-10">START YOUR JOURNEY</span>
             <div className="absolute inset-0 bg-gradient-to-r from-pink-500 to-yellow-500 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
             <div className="absolute inset-0 bg-gradient-to-r from-cyan-500 to-purple-600 rounded-full group-hover:animate-pulse"></div>
-          </button>
+          </RouterLink>
           
           {/* Features Preview */}
           <div className="mt-16 grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
