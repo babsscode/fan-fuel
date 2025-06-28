@@ -69,7 +69,7 @@ const LoginPage: React.FC = () => {
     setError('');
 
     if (isRegisterMode && (!selectedLeague || !selectedTeam)) {
-      setError('Please select your favorite league and team');
+      setError('Please select a league and your favorite eam');
       setIsLoading(false);
       return;
     }
@@ -228,7 +228,7 @@ const LoginPage: React.FC = () => {
             <>
               <div className="relative">
                 <label className="block text-sm font-medium text-gray-300 mb-2">
-                  Favorite Sports League <span className="text-red-400">*</span>
+                  Sports League <span className="text-red-400">*</span>
                 </label>
                 <button
                   type="button"
