@@ -39,8 +39,8 @@ type Workout = {
 };
 
 // --- Options ---
-const categoryOptions = ['Technical', 'Tactical', 'Physical', 'Mental'];
-const emojiOptions = ['⚽', '🏃‍♂️', '💪', '🧠', '🥅', '🥇', '🔥', '🎯'];
+const categoryOptions = ['Strength', 'Cardio', 'Flexibility', 'Other'];
+const emojiOptions = ['⚽', '🏃‍♂️', '💪', '🧠', '🧘', '🥇', '🔥', '🎯'];
 
 const DashboardPage = () => {
   const { user } = useAuth();
@@ -56,7 +56,7 @@ const DashboardPage = () => {
   const [newWorkout, setNewWorkout] = useState<Omit<Workout, 'id' | 'completedReps' | 'matchId' | 'createdAt'>>({
     type: '',
     targetReps: 10,
-    category: 'Technical',
+    category: '',
     emoji: '⚽',
     estimatedTime: 15
   });
@@ -183,7 +183,7 @@ const DashboardPage = () => {
               type: w.type || '',
               targetReps: w.targetReps ?? 10,
               completedReps: w.completedReps ?? 0,
-              category: w.category || 'Technical',
+              category: w.category || '',
               emoji: w.emoji || '⚽',
               estimatedTime: w.estimatedTime ?? 15,
               matchId: w.matchId || userMatches[0].id,
@@ -262,7 +262,7 @@ const DashboardPage = () => {
       const newProgress = calculateMatchProgress(currentMatchWorkouts);
       await updateMatchProgress(user.uid, selectedMatch.id, { percent: newProgress });
       
-      setNewWorkout({ type: '', targetReps: 10, category: 'Technical', emoji: '⚽', estimatedTime: 15 });
+      setNewWorkout({ type: '', targetReps: 10, category: '', emoji: '⚽', estimatedTime: 15 });
       setShowWorkoutModal(false);
     } catch (err) {
       console.error('Failed to add workout:', err);
@@ -317,7 +317,7 @@ const DashboardPage = () => {
         type: w.type || '',
         targetReps: w.targetReps ?? 10,
         completedReps: w.completedReps ?? 0,
-        category: w.category || 'Technical',
+        category: w.category || '',
         emoji: w.emoji || '⚽',
         estimatedTime: w.estimatedTime ?? 15,
         matchId: w.matchId || match.id,
@@ -382,9 +382,9 @@ const DashboardPage = () => {
                     path: {
                       stroke: overallProgress <= 40 
                         ? `rgb(${255}, ${Math.round(overallProgress * 165 / 40)}, 0)` // Red to Orange transition (0-40%)
-                        : overallProgress <= 70 
+                        : overallProgress <= 65 
                         ? `rgb(255, 165, 0)` // Stay Orange (40-75%)
-                        : `rgb(${255 - Math.round((overallProgress - 75) * 221 / 25)}, ${165 + Math.round((overallProgress - 75) * 63 / 25)}, ${Math.round((overallProgress - 75) * 34 / 25)})`, // Orange to Green (75-100%)
+                        : `rgb(${255 - Math.round((overallProgress - 65) * 221 / 25)}, ${165 + Math.round((overallProgress - 65) * 63 / 25)}, ${Math.round((overallProgress - 65) * 34 / 25)})`, // Orange to Green (75-100%)
                       strokeLinecap: 'round',
                       transition: 'stroke-dashoffset 0.5s ease 0s, stroke 0.3s ease',
                     },
@@ -632,18 +632,23 @@ const DashboardPage = () => {
                 </div>
               </div>
 
-              <div>
+                <div>
                 <label className="block text-sm text-gray-300 mb-2">Category</label>
                 <select
                   value={newWorkout.category}
-                  onChange={(e) => setNewWorkout({...newWorkout, category: e.target.value})}
+                  onChange={(e) => setNewWorkout({ ...newWorkout, category: e.target.value })}
                   className="w-full bg-white/10 text-white rounded-lg px-3 py-2 border border-white/20 focus:border-cyan-400 focus:outline-none"
                 >
+                  <option value="" className="bg-slate-800" disabled>
+                  Select Category
+                  </option>
                   {categoryOptions.map(cat => (
-                    <option key={cat} value={cat} className="bg-slate-800">{cat}</option>
+                  <option key={cat} value={cat} className="bg-slate-800">
+                    {cat}
+                  </option>
                   ))}
                 </select>
-              </div>
+                </div>
 
               <div>
                 <label className="block text-sm text-gray-300 mb-2">Emoji</label>

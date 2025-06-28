@@ -162,8 +162,8 @@ const SchedulePage = () => {
   
   const getProgressColor = (progress: number) => {
     if (progress >= 80) return 'from-green-400 to-emerald-500';
-    if (progress >= 70) return 'from-yellow-500 to-orange-500';
-    if (progress >= 40) return 'from-pink-500 to-red-400';
+    if (progress >= 60) return 'from-yellow-500 to-orange-500';
+    if (progress >= 30) return 'from-pink-500 to-red-400';
     return 'from-red-500 to-pink-500';
   };
 
@@ -258,7 +258,7 @@ const SchedulePage = () => {
                            {match.homeTeam} vs  {match.awayTeam}
                           </h3>
                         </div>
-                        <div className={`px-2 py-1 rounded-lg text-md font-bold ${
+                        <div className={`px-2 py-1 rounded-lg text-sm font-bold ${
                           match.daysLeft <= 3 
                             ? 'bg-red-500/20 text-red-300' 
                             : match.daysLeft <= 7 
